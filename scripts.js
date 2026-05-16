@@ -1,0 +1,1364 @@
+// Auto-generated from Last Supper Script.docx + Passion Script_260407_180733.pdf
+window.SCRIPTS = {
+  "last_supper": {
+    "title": "The Last Supper",
+    "scenes": [
+      {
+        "name": "Scene 1 — Before the Meal",
+        "items": [
+          {
+            "type": "direction",
+            "text": "The guests are gathered in front of the dining hall on the concrete patio prior to going inside for the Last Supper, and the retreat directors are giving their introductions. While they have the guests' attention, Jesus, John, and Peter will walk out of the dining hall and down the steps into the crowd and initiate the scene."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Go and prepare the Passover meal for us, so we can eat it."
+          },
+          {
+            "type": "line",
+            "character": "John",
+            "text": "Where do you want us to prepare it?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Listen, when you've entered the city, a man carrying a water jug will meet you. Follow him into the house he enters. Tell the owner of the house, The Teacher asks You, where is the guest room where I can eat the Passover with my disciples? Then he will show you a large furnished room. Make the preparations there."
+          },
+          {
+            "type": "direction",
+            "text": "John and Peter will go on ahead of Jesus into the conference room. Jesus will walk towards the carpenter shop."
+          },
+          {
+            "type": "line",
+            "character": "Carpenter apprentice",
+            "text": "Is that him? Is that the one they call Jesus?"
+          },
+          {
+            "type": "line",
+            "character": "Carpenter",
+            "text": "Who- him? Are you Jesus? Are you the one that everyone is talking about?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "I am. You know I was a carpenter. What are you building?"
+          },
+          {
+            "type": "line",
+            "character": "Carpenter",
+            "text": "A cross."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus walks on into the conference room."
+          },
+          {
+            "type": "direction",
+            "text": "The guests will walk past the carpenter's shop and enter the conference room. The man with the water jug will meet them at the entrance with a water jug to wash their hands as they enter."
+          }
+        ]
+      },
+      {
+        "name": "Scene 2 — The Last Supper",
+        "items": [
+          {
+            "type": "direction",
+            "text": "Setting: The room is dark, with a small light to light the Narrator. A \"U\" shaped table is set up on the stage with tablecloth, burlap, or other such period decorations. Places will be set for 13 people. Candles, led lights, or white Christmas lights help light the tables. Wooden or earthen cups and a plate with loaf bread should be at the spot where Jesus will sit. He will use these when it comes time to do communion."
+          },
+          {
+            "type": "direction",
+            "text": "The disciples will enter in groups from various locations of the building working their way through the tables. They will greet each other (welcome each other- hug and embrace) and the guests as well and make their way towards the stage."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus will walk to the front of the room, kneel in front of a bowl and pitcher of water. He will have towel available. Jesus will pour water into a wash basin and begin washing the Disciples feet. The disciples will come forward and have their feet washed greeting Him as - \"Lord and God\", \"Messiah\", \"Rabbi\", \"Teacher\". Peter's feet will be the last one washed."
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "Lord, are you going to wash my feet?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "What I'm doing you don't understand now, but later you will know."
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "No! You will never wash my feet."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Unless I wash your feet, you have no part with me."
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "Lord, not only my feet, but my hands and head as well!"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "A person who has bathed all over does not need to wash, except for the feet, to be entirely clean and You disciples are clean, but not all of you."
+          },
+          {
+            "type": "direction",
+            "text": "Disciples look at each other confused and mumble to each other. Jesus stands."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Do you understand what I was doing? You call me 'Teacher' and 'Lord' and you are right because that's what I am. And since I have washed your feet, you ought to wash each other's feet. I have given you an example to follow. Do as I have done to you."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus and Peter will make their way back to their spots at the table. Jesus will be in the center. Judas and John will sit on either side of Jesus. Peter will be seated at the far end of the table away from Jesus. All others may sit where they wish."
+          },
+          {
+            "type": "direction",
+            "text": "At this point, the disciples casually begin to eat the food set on the table and make period accurate small talk, keeping in character and using only their characters names. The meal will now be served to all the guests and to Jesus and the disciples at the same time. Everyone will eat the Passover Meal together. Once the servers have ensured the guests have all the food they need and they are ready to stop serving, one designated server will cue Andrew to begin the scene."
+          },
+          {
+            "type": "line",
+            "character": "Andrew",
+            "text": "Thank you Jesus for inviting us to join you at this table tonight."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "I have been very eager to eat this Passover meal with all of you."
+          },
+          {
+            "type": "line",
+            "character": "Andrew",
+            "text": "I remember the first time I saw you. I was standing next to John the Baptist and overheard him say \"Look the Lamb of God!\" I began following you and couldn't wait to tell my brother Peter."
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "I remember that day like it was yesterday you came running up to me with excitement claiming that you had found the Messiah. Later Andrew and I were washing our nets when Jesus, \"The Messiah\", showed up and got in my boat. He had a large crowd following him and asked me to put him out a little from the shore. Then he sat down and began teaching from my boat. When he finished speaking, he told me to put out into deep water and let down my nets for the catch. We had been fishing all night long and caught nothing."
+          },
+          {
+            "type": "line",
+            "character": "Andrew",
+            "text": "Yeah, I thought Jesus was crazy. You could tell by looking at him that he never fished a day in his life."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Well you are better fishers of men then you were of fish."
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "Yes Master thanks to you. We listened to You, and we caught so many fish that I had to signal to James and John to help lift our nets."
+          },
+          {
+            "type": "line",
+            "character": "Thaddeus",
+            "text": "oh yes- the sons of Zebedee. The sons of Thunder"
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "They came to help, and both our boats began to sink due to the weight of all the fish we caught. I caught more fish that day than I have caught in a year. Speaking of fish, Philip tell about the time our Master fed the 5,000?"
+          },
+          {
+            "type": "line",
+            "character": "James",
+            "text": "You mean 5,000 men. That is not counting women and children."
+          },
+          {
+            "type": "line",
+            "character": "Philip",
+            "text": "You are right James there was a lot more than 5000 people there that day. Jesus had just crossed the sea of Galilee and a huge crowd was following him. They were so hungry for the words Jesus was speaking. Jesus came and sat with us on the mountain and the huge crowd continued toward him. I asked, \"where will we buy bread so these people can eat?\" Almost like an answer to a pray- Andrew, the Bringer, found a boy with 5 loaves of bread and 2 fish."
+          },
+          {
+            "type": "line",
+            "character": "Andrew",
+            "text": "Oh yes, I remember that boy. He was so willing to serve. I knew this wasn't enough to feed all the people. But Jesus took the 5 loaves and fish blessed it and began passing it to the crowd. When they were full, Jesus told us to collect the leftovers so that nothing was wasted."
+          },
+          {
+            "type": "line",
+            "character": "John",
+            "text": "I still can't believe we collected 12 baskets of leftovers. Jesus taught us that day to put our lives in his hands so he could do things with it that no one could ever imagine. After Jesus called Peter and Andrew to follow Him, He came to me and my brother James. We were in the boat nearby with our father Zebedee, mending our nets. When He called us, and we immediately left the boat and our father, and followed Him."
+          },
+          {
+            "type": "direction",
+            "text": "Do you remember when the Master said, \"For God so loved the world that He gave His only begotten Son, that whosoever believes in Him should not perish, but have everlasting life.\" How could we forget that. Matthew, tell us how you meet Jesus. I love this story."
+          },
+          {
+            "type": "line",
+            "character": "Matthew",
+            "text": "The first time I met Jesus, I was sitting in my tax collector booth and Jesus said to me \"follow me and be my disciple\". I knew something was different about him. I got up leaving everything behind to follow him. Before I knew Jesus my money and my job was my god; they were the only thing I worshiped. Jesus knew the man I was. I was hated by everyone, and I really don't blame them. Jesus, you loved me even in my sin and shame. I thought I was unlovable."
+          },
+          {
+            "type": "direction",
+            "text": "Later, I invited Jesus to my home to sit at my table with other tax collectors and friends. The religious leaders were so angry with Jesus and questioned why he would eat with sinners. There is a world of people out there that think they are unlovable due to their situations and life of sin that they are in but with the help of Jesus I'm going to love them as he loved me."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus has taught me many things over the past few years and one of the things that really sticks out to me is to continue sharing the good news that Jesus loves everyone no matter what they are going through. Jesus thank you for rescuing me and saving a place for me at your table tonight. What about you Little James?"
+          },
+          {
+            "type": "line",
+            "character": "James the Lesser",
+            "text": "(shaking his head) Just because I am smaller than most men- I am Little James. I will tell you it was an unforgettable day. I was walking, I saw a crowd and could sense the excitement. John the Baptist was baptizing. This is the day John baptized Jesus. John at first refused to baptize Him, but Jesus insisted. After John baptized Him, the heavens opened, and the Holy Spirit descended on Him in the form of a dove and I heard a voice from heaven saying \"This is My beloved son, in whom I am well pleased. I will never forget it- it was incredible!"
+          },
+          {
+            "type": "direction",
+            "text": "Since then, I have walked with Him and talked with Him, stayed with Him and prayed with Him, trying to learn as much about Him as I could. Simon has a great story, tell us."
+          },
+          {
+            "type": "line",
+            "character": "Simon",
+            "text": "You all know I was a Zealot. That I wanted to overthrow the Romans by force- to restore the glory of Israel. But Jesus, He told me about another kind of kingdom, one that isn't on earth, but it is spiritual and eternal. It's a future kingdom, but it also exists now in our hearts. I changed because of Jesus. He showed me to stop fighting against countries and rulers and start fighting for people's souls, to bring them back to the heart of God. I have surrendered myself to Him. This surrendered didn't imprison me, it set me free for the first time in my life."
+          },
+          {
+            "type": "line",
+            "character": "James",
+            "text": "I will tell out something that wasn't free. When Mary washed Jesus' feet with that expensive ointment and perfume. It wasn't free, but the room sure smelled good."
+          },
+          {
+            "type": "line",
+            "character": "Judas",
+            "text": "That was such a waste of money. We could have sold that perfume and given it to the poor. As the treasurer I can assure you we I could have found a better way to spend that money then to pour it out."
+          },
+          {
+            "type": "line",
+            "character": "Nathaniel",
+            "text": "Phillip, do you remember the day you told me, you had found the One about whom Moses wrote in the law, and also the prophets."
+          },
+          {
+            "type": "line",
+            "character": "Philip",
+            "text": "I sure do, Nathaniel. It was Jesus, the son of Joseph, a carpenter from Nazareth."
+          },
+          {
+            "type": "line",
+            "character": "Nathaniel",
+            "text": "I said, \"Nazareth! Can anything good come from Nazareth?\" You said, \"Come and see.\" Jesus, you saw me coming and motioned to me and said"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "\"Here is a true Israelite, in whom there is no guilt.\""
+          },
+          {
+            "type": "line",
+            "character": "Nathaniel",
+            "text": "I replied, \"How do you know me?\" and you told me \"Before Phillip called you, I saw you underneath the fig tree.\""
+          },
+          {
+            "type": "direction",
+            "text": "I couldn't believe it. You see, the Master was actually telling me that he had known me since the day I was born. I responded, \"Rabbi, truly you are the son of God, the King of Israel!\" You again responded, \"Do you believe it because I told you I saw you underneath the fig tree? You will see greater things than this.\""
+          },
+          {
+            "type": "direction",
+            "text": "And we did. Soon after this, we were all invited to a wedding feast at Cana. The wedding party ran out of wine. All they had were six stone jars containing water that had been set apart for purification. And we watched Jesus turn that water into wine. Water into wine! Do you remember? That was definitely a good night for the chief servant and the wedding party as well."
+          },
+          {
+            "type": "line",
+            "character": "Thomas",
+            "text": "That was an amazing night. Jesus was right about seeing great things. I cannot help but think about Lazarus, what a miracle. We saw something that I thought was truly impossible. Jesus spoke and Lazarus walked out the grave. We have all seen Jesus heal the sick, cure disease, open the eyes of the blind, unstop the ears of the dead, cleanse lepers. I cannot doubt that Jesus is the Son of God with all that I have seen."
+          },
+          {
+            "type": "line",
+            "character": "Thaddeus",
+            "text": "What about the time they lowered that man into the room through the roof? Those were true believers and friends. Or when He calmed the seas. I thought we were all going to die that night. Or when he cast out demons- do you remember those pigs?"
+          },
+          {
+            "type": "line",
+            "character": "James",
+            "text": "Peter what about the time you walked on water."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus stands."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "I have been eager to eat this Passover meal with all of you before my sufferings begin. For I tell you now that I won't eat this meal again until its meaning is fulfilled in the Kingdom of God."
+          },
+          {
+            "type": "direction",
+            "text": "Disciples will partake in communion, each serving the other with bread and juice. (3-5 minutes) Elements at table-need two cups and loaf of bread."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus takes the cup, raises it to heaven, prays in silence and then, and lowers his arms."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Take this and share it among yourselves. For I will not drink of the fruit of the vine until the Kingdom of God has come."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus passes the cups around the table, one in each direction. The disciples take a drink, or pretend to, from the cup and pass to the next. Jesus waits until the cup has been passed to all the disciples."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus takes the bread, raises it to heaven, prays in silence, and lowers his arms."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "This is my body, which is given for you. Do this in remembrance of me."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus breaks the bread and passes the pieces around the table, one in each direction. The disciples take a piece, eat it, and pass to the next. Jesus waits until the bread has been passed to all the disciples."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "But look, the hand of the one who is to betray me is with me at this table; for the Son of Man indeed goes as it has been determined; but woe to that man by whom he is betrayed."
+          },
+          {
+            "type": "direction",
+            "text": "The disciples start to argue among themselves and look around the table. Peter will motion to John to find out who Jesus is talking about."
+          },
+          {
+            "type": "line",
+            "character": "John",
+            "text": "Lord, who is it?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "He is the one I give the piece of bread to after I have dipped it."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus will dip the bread in the cup and give it to Judas. The other disciples look confused and talk amongst themselves briefly. Their conversations are short. They do not understand what is going on. Scripture teaches us they did not understand what was happening in this moment despite what Jesus had been teaching them."
+          },
+          {
+            "type": "line",
+            "character": "Judas",
+            "text": "Surely you don't mean me, Rabbi?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "(speaking to Judas) What you're doing, do quickly."
+          },
+          {
+            "type": "direction",
+            "text": "Judas will be carrying the money bag (visibly) and he will hug Jesus as he exits the table. Judas will walk by the guests as he leaves the room. The disciples start talking amongst themselves and questioning where Judas is going. Jesus remains standing and watches Judas leave."
+          },
+          {
+            "type": "line",
+            "character": "Thomas",
+            "text": "He is probably buying things for the festival…"
+          },
+          {
+            "type": "line",
+            "character": "James",
+            "text": "Or giving something to the poor…"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "I give you a new command: Love one another. Just as I have loved you, you must also love one another. By this all people will know that you are my disciples if you have love for one another. Behold, the hour has come when you will be scattered, each to his own home, and will leave me alone. Yet I am not alone, for the Father is with me. I have said these things to you, that in me you may have peace. In the world you will have trouble, but take heart, I have overcome the world. Come, it is time to go."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus leaves the table and exits through the guest. After Jesus exits the room, the disciples will rise from the table and leave the room. The narrator will wait for them to exit before he will speak to the guest."
+          }
+        ]
+      },
+      {
+        "name": "After the Meal — Narrator",
+        "items": [
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "You are all Jesus' faithful disciples as are these men that you have seen tonight. You have been commissioned and sent forth to do the work of the Father through your Salvation, becoming part of the true Body of Christ in your homes, in your churches, and in the community. Through the study of God's word, learning and reinforcing your faith and your relationship with Him."
+          },
+          {
+            "type": "direction",
+            "text": "Narrator will direct guests to take (5-10 minute) bathroom breaks and reconvene. Guests should gather at a place outside prior to going to the first station of the passion. This break will be the transition between the Last Supper and the Passion."
+          },
+          {
+            "type": "direction",
+            "text": "Once guests are reassembled and quieted, each guest will be given a name tag, and asked to write their name legibly on the name tag. Guests should be told to keep the name tag with them, and make sure not to lose it."
+          },
+          {
+            "type": "direction",
+            "text": "Narrator continues:"
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "After Jesus shared the Passover meal with his disciples that you have just witnessed, he did what he so often did, he retreated to a quiet place to pray to his Father. Jesus went out to the Mount of Olives and his disciples followed him there. Come, let us join them there now."
+          },
+          {
+            "type": "direction",
+            "text": "Passion begins as guests are directed to the first scene at the Garden of Gethsemane."
+          }
+        ]
+      }
+    ]
+  },
+  "passion": {
+    "title": "The Passion",
+    "scenes": [
+      {
+        "name": "Scene 1 — In The Garden",
+        "items": [
+          {
+            "type": "direction",
+            "text": "Characters: Jesus, Peter, James, John, Judas, Pharisee, 3-4 Men"
+          },
+          {
+            "type": "direction",
+            "text": "Retreatants will be led to the \"Garden\" by 2-3 Team members. Narrator and assistant are set up and ready at Station 1."
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "On the way to the cross, on the eve of our Jesus' crucifixion, He led his disciples to pray in the Garden of Gethsemane. He was immediately followed by his 3 closest disciples: Peter, James, and John. As He prayed, his sweat became like drops of blood falling to the ground. Here we see Jesus' humanity at its deepest level. He knew the path before him. It was in the garden, on his knees in prayer that He submitted his will to His Father."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus, with Peter, James, & John following, walks out of the darkness. Jesus stops, turns to the three and speaks."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Stay here while I go over there and pray. My soul is extremely heavy, even to the point of death. Remain here and keep watch with me."
+          },
+          {
+            "type": "direction",
+            "text": "Peter, James and John sit and fall asleep. Jesus walks approximately 10 feet over, falls to the ground and begins praying."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Father, the hour has come. Glorify your Son, that your Son may glorify you. For you granted him authority over all people that he might give eternal life to all those you have given him. My Father, if it is possible, let this cup pass from Me; yet not as I will, but as You will."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus then gets up, walks over to the disciples to find them asleep."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Why are you sleeping? Can you not stay awake and watch with me for just an hour?"
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "Forgive us Lord, it is late and... (continue speaking until Jesus interrupts)"
+          },
+          {
+            "type": "direction",
+            "text": "Jesus interrupts Peter as he is speaking and speaks. While Jesus is speaking, Judas, a Pharisee, and 3-4 other men enter the scene from behind the retreatants."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Behold, the time has come, and the Son of Man is being betrayed into the hands of sinners. Rise, my betrayer is here!"
+          },
+          {
+            "type": "direction",
+            "text": "Judas, the pharisee, and the crowd stop several feet away from Jesus. Judas speaks to the Pharisee."
+          },
+          {
+            "type": "line",
+            "character": "Judas",
+            "text": "Whomever I kiss, He is the One; seize Him. (Judas then approaches Jesus)"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Who is it you want?"
+          },
+          {
+            "type": "line",
+            "character": "Pharisee",
+            "text": "Jesus of Nazareth"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "I am He."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "(stopping Judas) Judas, are you betraying the Son of Man with a kiss?"
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "(stepping toward Jesus and Judas and beginning to draw a sword) Lord, shall we strike with the sword?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "(Turning towards Peter, raising a hand to stop and calm him) Put the sword away; for all those who take up the sword will die by the sword. Do you not think I could call down more than 12 legions of angels? This must happen to fulfill Scripture."
+          },
+          {
+            "type": "line",
+            "character": "Pharisee",
+            "text": "(Pointing to Jesus) Seize Him now!"
+          },
+          {
+            "type": "direction",
+            "text": "2-3 Men from the Temple move toward Jesus with shackles and chains in hand. Jesus extends His hands out towards the men and they put the shackles on Him. They push and shove Him."
+          },
+          {
+            "type": "direction",
+            "text": "Peter, James and John are at the side of Jesus. As Jesus is being put in shackles John and James move towards Peter, grabbing him and pulling him away. Peter resists but ultimately leaves."
+          },
+          {
+            "type": "line",
+            "character": "John",
+            "text": "Come on Peter, let's go now! We must leave!"
+          },
+          {
+            "type": "direction",
+            "text": "Peter, James and John flee. John and James will go to the Scourge Scene. Peter will go to the Denial Scene."
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "Jesus passionately prayed three times that this cup would pass from him. It was the cup of suffering. He was about to take on the sins of the world. This sacrifice would also become salvation to the world. Our salvation, our freedom, and the will of the Father gave Jesus the strength to go on. For 30 pieces of silver, Jesus was betrayed by one of his closest followers. What is our relationship with Jesus worth to us? At what cost have we betrayed that relationship for someone or something else? Jesus is being led away by the Pharisees now, Let's follow Him as He continues his journey."
+          },
+          {
+            "type": "direction",
+            "text": "The Pharisee, men, and Judas lead Jesus to Scene 2, Jesus before Caiaphas. The 3-4 men that put Jesus in shackles lead Him by the chains. They push, shove, and taunt him along the way, insulting Him, and laughing as they pull and jerk Him. The idea is that these men are mocking Jesus; clanking the chains to make noises."
+          }
+        ]
+      },
+      {
+        "name": "Scene 2 — Jesus Before Caiaphas",
+        "items": [
+          {
+            "type": "direction",
+            "text": "Characters: Jesus, Caiaphas, Pharisee #2, 3-4 Men from Scene 1, 2 Witnesses, 2 Men"
+          },
+          {
+            "type": "direction",
+            "text": "Retreatants will follow the Narrator down the path to Scene 2. Men of the Temple are talking amongst themselves as the retreatants walk up."
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "Following Jesus' arrest, Caiaphas begins questioning him. Seeking to solidify his case against Jesus, Caiaphas tried to catch Jesus in speaking blasphemy publicly before the crowd. He had even planted false witnesses in the crowd to guarantee a ruling of death."
+          },
+          {
+            "type": "direction",
+            "text": "Scene opens with Jesus facing Caiaphas, Pharisee #2, and the other men from the Temple. Jesus is still in chains. Pharisee #2 and Caiaphas are talking among themselves and the other Temple men are involved in conversation. The retreatants cannot hear what is said."
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "(Speaking to the men of the Temple) Quiet, Quiet! (Now turns his attention to Jesus) Tell us by whose authority you teach? Who are these men that follow you? Your so-called disciples...they are not educated, and cannot possibly know all our laws and customs."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "I have spoken openly in the marketplace and in the Temple, where all the Jews come together. I have said nothing in secret. Why do you question me? Question the ones who have heard me; they know what I have said."
+          },
+          {
+            "type": "line",
+            "character": "Temple Guard",
+            "text": "(stepping towards Jesus and hitting him across the head) Is that the way you answer the high priest?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "If I have not spoken the truth, testify to what is the lie; otherwise why do you hit me?"
+          },
+          {
+            "type": "direction",
+            "text": "As Caiaphas begins speaking, Caiaphas throwing his arms in the air"
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "Has anyone heard what this man has taught?"
+          },
+          {
+            "type": "line",
+            "character": "False Witness",
+            "text": "(Witness speaks from the crowd) Yes, Yes! We have heard Him say, 'I will destroy the Temple of God and rebuild it after 3 days!"
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "(Approaching Jesus, so that he is face to face) Do you not answer? What does this mean? (pause) What is this thing that these men testify against you? (Jesus stares at Caiaphas, then at the other men in the group. There is a quiet pause at this point)"
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "(Becoming angry, throws his arms in the air, turns around, takes a couple of steps away from Jesus, then turning around quickly rushes towards Jesus) I demand an oath of You by the Living God; tell me whether You are the Christ, The Son of God!!!"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "(unfazed by Caiaphas' rage, remains calm) You have said it yourself; but I will tell you, from now on you will see the Son of Man sitting at the Right Hand of Power and coming on the Clouds of Heaven."
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "(Completely overcome with anger and disbelief, tearing his robe) AAAHHHH!!! He has spoken blasphemy! We do not need any witnesses. You yourselves have heard Him insult the Living God! What do you think we should do with Him?"
+          },
+          {
+            "type": "line",
+            "character": "Rest of Men",
+            "text": "(Raising a fist shouting repeatedly) Crucify Him, He deserves death!"
+          },
+          {
+            "type": "direction",
+            "text": "Temple Guard puts a black hood on Jesus."
+          },
+          {
+            "type": "line",
+            "character": "Temple Guard",
+            "text": "(One by one the men strike Jesus on the head or body while saying) Prophesy, who is hitting You? Tell us Jesus, Son of God, who's hitting you now?"
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "(Arms in the air, waving back and forth) Enough, that's enough! Take Him to Pilate! Our laws will not allow us to place a death sentence on Him, but Pilate can. Take Him to the Praetorium!"
+          },
+          {
+            "type": "direction",
+            "text": "Jesus, still in chains, is led away by Caiaphas and the others to Pilate's. They will go by a shorter route to the Scourge Scene #4."
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "Convinced he has the proof that Jesus blasphemed, referring to himself as the Son of Man, Caiaphas leads Jesus to Pontius Pilate, the Roman procurator for their region, for approval to have Jesus executed by crucifixion. Jesus did not fight. He didn't resist. He walked the path His Father had set before him."
+          },
+          {
+            "type": "direction",
+            "text": "As the narrator finishes reading, two men in costume, carrying a torch walk up from behind and through the retreatants. They are visibly tired and begin to speak when in front of the retreatants."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #2",
+            "text": "Stop just a minute, let me catch my breath."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "(carrying the torch) Come on, we need to hurry. I want to get there before it's over."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #2",
+            "text": "(hands on his hips, tired and agitated) I'm not sure what the big deal is. I'm telling you, this guy is asking for it, and he's going to get himself crucified!"
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "(in disbelief) Asking for it?!?! What do you mean?"
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #2",
+            "text": "He says He's the Son of God (making a gesture with his hands)...since when was the Son of God a carpenter from Nazareth? Nazareth?...Nothing good ever came from Nazareth."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "He may have been a carpenter, but I've seen Him heal Lepers, make the blind see. I was there when he fed all of us, more than 5,000 of us with just 2 fish and 5 little loaves of bread. I've heard him teach about loving your neighbor as yourself. (Pause) I just can't believe they want to kill him? Why?...What did He do? You ready...come on, this may be my last chance to see Him and I don't want to miss it."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #2",
+            "text": "Alright, let's go. I still think He's asking for it; I wouldn't want those priests in the Temple mad at me."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "(Begin to walk down the trail toward Scene 3, Peter's Denial. After a couple steps Man # 1 turns and faces the retreatants, looking straight at them. He is now speaking directly to them) Aren't you coming? Don't you want to see if He really is the Son of God? Come on, walk with us."
+          },
+          {
+            "type": "direction",
+            "text": "They will lead the retreatants all the way to Scene 4, the Scourge. At that point, they put the torch in a bucket of water and become part of the crowd."
+          }
+        ]
+      },
+      {
+        "name": "Scene 3 — Peter's Denial",
+        "items": [
+          {
+            "type": "direction",
+            "text": "Characters: Peter, 2 Women, 1 Man, and the 2 Men leading the Retreatants"
+          },
+          {
+            "type": "direction",
+            "text": "Retreatants will follow 2 Men down the path to Scene 3. A small fire is burning in a fire pit. 2 women and 1 man are gathered there talking about the night's events."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #2",
+            "text": "Look! Let's stop and rest with these people by the fire for just a minute. We're almost to Pilate's, and we'll get there in plenty of time for you to see your Jesus."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "Alright, but just for a minute. (calling out to the group at the firepit) Good evening, can we stop and warm ourselves by your fire?"
+          },
+          {
+            "type": "line",
+            "character": "Man at the Fire",
+            "text": "(waving the 2 men to come over) Yes, come and join us."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #2",
+            "text": "Thank you. We could use a break."
+          },
+          {
+            "type": "line",
+            "character": "Man at the Fire",
+            "text": "You're welcome; There's a lot of strangers in town for Passover. It's an unusual night tonight, there's a lot going on...in town, at the Temple and now at Pilate's. Where are you headed at this hour?"
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "(placing the torch in a holder then standing at the fire) We are headed to Pilate's, to the Praetorium. I heard they have taken the man called Jesus there. We want to see him."
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "(Standing by the fire) You say they have taken Jesus to Pilate's? Why would He be taken there?"
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #2",
+            "text": "We heard they want Him crucified."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "The priest never did like Him; and claiming to be the Son of God was the last straw for them. I'm afraid they will crucify Him if they get their way."
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "(shocked) \"Crucify Him?!?!"
+          },
+          {
+            "type": "line",
+            "character": "Woman at the fire",
+            "text": "(looking at Peter closely) I knew there was something about you; you looked so familiar. You were with Him, you're one of His followers!"
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "(agitated, but not moving from the fire) I do not know what you're talking about; leave me alone woman!\""
+          },
+          {
+            "type": "line",
+            "character": "Woman at the fire",
+            "text": "(moving towards Peter) No, it's you! I saw you with Him teaching in the Temple. You're one of his disciples!"
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "(angry and moving away from the fire) I told you I'm not with Him! I do not know the Man!"
+          },
+          {
+            "type": "line",
+            "character": "Man at the Fire",
+            "text": "Surely you are one of them, the way you speak gives you away!"
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "(in a rage and walking away from the fire, turning back to the group) I swear by my life, I do not know the Man!!!"
+          },
+          {
+            "type": "direction",
+            "text": "Peter begins moving through the crowd, saying \"I don't know Him.\" A rooster crows, he hears it, and begins to cry."
+          },
+          {
+            "type": "line",
+            "character": "Peter",
+            "text": "No, No Jesus! No"
+          },
+          {
+            "type": "direction",
+            "text": "(Everyone else stays at the fire)"
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "The time is drawing near. In these moments of darkness and betrayal, don't miss the grace and love of Christ shining through. As the rooster crowed, Peter immediately remembered Jesus earlier telling him he would betray Him 3 times. But Jesus already had a plan for Peter's life. He didn't condemn him for this failure, He would instead restore him and use him. Jesus offers the same to each one of us today. John 3:17 says that \"God didn't send his Son into the world to condemn it, but in order that the world might be saved through him.\""
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "(picks up the torch and speaks to the group by the fire) Thank you for letting us warm ourselves by your fire. We need to be on our way."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #2",
+            "text": "(stepping away from the fire) Yes, thank you for your hospitality."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "(looking to the retreatants, waving for them to follow, and speaking to them; everyone else in the scene ignores the retreatants) Come on, we are almost to Pilate's; it's just a short distance down the road."
+          }
+        ]
+      },
+      {
+        "name": "Scene 4 — The Scourge",
+        "items": [
+          {
+            "type": "direction",
+            "text": "Characters: Jesus, Caiaphas, Pharisee, 3-4 Men for the Temple, Pilate, Claudia, Slave, Mary, Mary M., Salome, John, 4-5 Roman Guards, Barabbas, & the Crowd"
+          },
+          {
+            "type": "direction",
+            "text": "Man # 1 carries the torch followed by Man # 2 and the 3 from Peter's Denial, all leading the Retreatants to the Scene."
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "While the guards were on their way to Pilates's with Jesus and the crowd following them, Claudia, Pilate's wife needed to speak to him urgently after she was sternly warned in a dream."
+          },
+          {
+            "type": "direction",
+            "text": "Enter Pilate and Claudia"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(to Claudia)- What have you awakened me? What is so important?"
+          },
+          {
+            "type": "line",
+            "character": "Claudia",
+            "text": "I ask you to have nothing to do with this man."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "The one they are bringing. The one they call the King of the Jews?"
+          },
+          {
+            "type": "line",
+            "character": "Claudia",
+            "text": "Yes, Jesus. I have suffered so much this day through visions and dreams because of Him."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "What do you suggest I do? There will be a mob if I don't condemn him."
+          },
+          {
+            "type": "line",
+            "character": "Claudia",
+            "text": "Don't let the pressure of the mob rule your heart. This man is innocent and righteous. Please have nothing to do with him."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "Leave me, woman and take your dreams with you."
+          },
+          {
+            "type": "direction",
+            "text": "Claudia exits."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus and the temple guards come through the crowd (from the back). Roman guards and the Centurion come out to stand by Pilate. Roman guards move to stand by the post. Mary, Mary M., Salome, and John will be opposite the crowd, closer to the post. Barabbas and the Slave are out of sight."
+          },
+          {
+            "type": "line",
+            "character": "Traveling Man #1",
+            "text": "I think I see Him, I think I see Jesus!"
+          },
+          {
+            "type": "direction",
+            "text": "All from Scene 3 blend into the crowd. All of the people in the crowd are talking and gesturing amongst themselves...this needs to be a mild rumble. Mary, visibly upset and weeping; Mary M., Salome, and John attempt to comfort her."
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "The crowd quickly began to swell into a mob as day broke. Everyone wanted to see what they would do with this man Jesus. Some knew him as a great healer, some as a wise teacher, others as the Messiah himself, but now he was preparing to stand trial as a blasphemer of God and worthy of death."
+          },
+          {
+            "type": "direction",
+            "text": "Once narration has ended, Pilate pauses to let the crowd noise begin; takes 1 step forward towards the crowd. The Centurion, standing 1 step behind Pilate and 1 to his right or left, depending on the retreatant's position, moves with Pilate. Pilate is irritated and addresses the crowd."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "Silence! Why do you seek an audience with me at this hour? What is it that you want?"
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "(Responding to Pilate) We brought this man to you because He is guilty of crimes against our nation."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(irritated) Then take Him and judge Him according to your law. Don't bring Him to me."
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "We are not permitted to put anyone to death."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "Death? What accusation do you make against this Man that is worthy of death?"
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "We have found this man guilty of stirring up rebellion in our people, forbidding us to pay taxes to Caesar, and saying He Himself is Christ the King!"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(with a smirk, turns to the Centurion, motioning for him to bring Jesus to him) \"Bring the Man to me.\""
+          },
+          {
+            "type": "line",
+            "character": "Centurion",
+            "text": "(walks over to Jesus, still in chains and with the hood over His head, takes hold of Jesus) The rest of you stay back! (He places Jesus in front of Pilate, but so Mary can see Him)"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(motioning to the Centurion to remove the hood, in a sarcastic tone) Remove the hood...Let me see what the King of the Jews looks like."
+          },
+          {
+            "type": "direction",
+            "text": "The Centurion jerks the hood off Jesus' head. This is the first time Mary has seen her Son. He is bloodied and bruised from the beating at the Temple."
+          },
+          {
+            "type": "line",
+            "character": "Mary",
+            "text": "(horrified, cries out) My child, My Jesus...what have they done to you? Please no more, don't hurt my child!"
+          },
+          {
+            "type": "direction",
+            "text": "Mary moves toward Jesus, reaching for Him only to be stopped by Mary M, Salome and John."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(looking intently but with curiosity) Are You the King of the Jews?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "Is that what you think, or did someone tell you about me?"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "I am not a Jew, am I? Your own people and the chief priest brought you to me; what did you do to make them so angry?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "My Kingdom is not of this world; if it were, My servants would be fighting so that I would not be handed over to the Jews; but as I said, My Kingdom is not of this world."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "So You are a king?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "You say correctly that I am a King. That is why I have been born, to testify to the truth. Everyone who is of the truth hears My voice."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(somewhat disgusted, but intrigued by Jesus) What is truth?"
+          },
+          {
+            "type": "direction",
+            "text": "Jesus doesn't move, the Centurion stays by Him, Pilate stepping a few steps away from Jesus towards the crowd."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "I find no guilt in this man. But, you have a custom that I release someone at Passover, do you wish that I release (gesturing back towards Jesus) the King of the Jews?"
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "No. But you are holding one called Barabbas, correct?"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "Yes, a true criminal; an insurrectionist and a murderer."
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "Give him to us. Give us Barabbas!"
+          },
+          {
+            "type": "line",
+            "character": "Crowd",
+            "text": "(waiving their fist in the air, pressing in on the 2 Roman guards, developing into a mob) Away with this Man, release Barabbas to us!"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(loudly) Then what shall I do with this Man, the one called the Christ?"
+          },
+          {
+            "type": "line",
+            "character": "Crowd",
+            "text": "(pressing in on the guards, the guards pushing back) Crucify Him, Crucify Him!!!"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(angered) What has He done to deserve Death? I have found no fault in Him!"
+          },
+          {
+            "type": "line",
+            "character": "Crowd",
+            "text": "(moblike) Crucify Him!"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "Silence!!! (calling to a slave out of sight) Slave, bring me a basin filled with water."
+          },
+          {
+            "type": "direction",
+            "text": "Slave appears carrying a basin with water and towel, saying nothing, with his head bowed before Pilate. Pilate with very exaggerated motions, so everyone in the crowd and the retreatants see what is going on, washes and dries his hands in the water. While washing he speaks."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "I am innocent of this Man's blood!"
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "His blood shall be on us and our children!"
+          },
+          {
+            "type": "line",
+            "character": "Crowd",
+            "text": "Yes, His blood will be on us and our children! Crucify Him!"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(throws arms in the air) Silence!"
+          },
+          {
+            "type": "direction",
+            "text": "Pilate motions for the Centurion. He comes forward to Pilate. Jesus turns to look at Mary, and will look at her until He is tied to the post; Mary is weeping and reaching for Jesus. Pilate: Release Barabbas to this mob. Take the one called Jesus and scourge Him severely, but not unto death."
+          },
+          {
+            "type": "line",
+            "character": "Mary",
+            "text": "(falling to the ground, screaming in agony.) No, No, do not take my child. Do not kill my Jesus. You can't! Please don't, please!"
+          },
+          {
+            "type": "line",
+            "character": "Centurion",
+            "text": "(motions in the darkness for a guard to bring Barabbas out) Release Barabbas!"
+          },
+          {
+            "type": "direction",
+            "text": "The Centurion seizes Jesus who is still shackled and takes Him to the scourge post, while the other guard brings Barabbas out of the dark and releases, with a slight push, him to the crowd. There is celebrating in the crowd at his release."
+          },
+          {
+            "type": "line",
+            "character": "Centurion",
+            "text": "(pulling on Jesus' shackles) Move!"
+          },
+          {
+            "type": "direction",
+            "text": "The Centurion and the guard that was at the post remove the shackles from Jesus and tie Jesus to the scourge post. The centurion rips Jesus' tunic to expose his back. A bucket by the scourge post will hold the 2 whips, both soaked in 'blood'. The centurion and a guard stand on each side of Jesus. The Scourge begins."
+          },
+          {
+            "type": "direction",
+            "text": "Once the scourge is completed, the Centurion cuts Jesus loose. He collapses under the severity of the scourge. The guards pick him up and the centurion puts the crown of thorns and the purple robe or sash on Him. The crown of thorns is sitting in \"blood\" before being put on Jesus. The guards are all laughing and mocking Jesus and bowing before Him."
+          },
+          {
+            "type": "line",
+            "character": "Roman Guards",
+            "text": "Hail King of the Jews! (repeated)"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(to the centurion) Bring Him to me."
+          },
+          {
+            "type": "direction",
+            "text": "The centurion grabs Jesus by the arm and walks Him over to Pilate."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(to the crowd) Behold the Man!"
+          },
+          {
+            "type": "line",
+            "character": "Crowd",
+            "text": "Crucify Him!"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "I have found no guilt in Him!\" (to Jesus) Do you not understand that I have the authority and the power to release You...or crucify You?"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "You have no authority over Me unless it has been given to You from My Father in Heaven."
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(to the crowd) Behold your King!"
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas",
+            "text": "(shaking his fist in the air) Away with Him...We have no King but Caesar!"
+          },
+          {
+            "type": "line",
+            "character": "Pilate",
+            "text": "(To the crowd) Crucify Him yourselves!\" (to the centurion) \"See to their wishes."
+          },
+          {
+            "type": "line",
+            "character": "Centurion",
+            "text": "(Seizing hold of Jesus, speaks to the other guards) Bring His cross, so He may carry it.\""
+          },
+          {
+            "type": "direction",
+            "text": "Two soldiers bring the cross and drop it at Jesus' feet. The centurion and the soldier that whipped Jesus pick up their whips. Soldier #3 picks up a torch and leads the way. Soldier #'s 4 & 5 keep the crowd at bay as everyone follows Jesus to the crucifixion site."
+          },
+          {
+            "type": "line",
+            "character": "Centurion",
+            "text": "(to Jesus) Pick up your cross...You King of the Jews"
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "With the crowd at the point of losing control, the last thing Pilate could afford was a mob riot. The tension in Jerusalem between the Jewish people and Rome was already at a breaking point. (pause) Beaten nearly to the point of death, with strips of flesh now exposed and hanging from his back, Jesus' agony was far from over. He was now forced to pick up this massive wooden instrument of death up to a hill overlooking Jerusalem called Golgotha, the place of the skull."
+          },
+          {
+            "type": "direction",
+            "text": "At the end of the narration, he leads the way to the crucifixion. Mary, still weeping, and her party follow on one side of the trail. The Crowd, led by Caiaphas, follow on the other side. Two Roman guards keep the crowd at bay as they walk."
+          },
+          {
+            "type": "line",
+            "character": "Roman Guard",
+            "text": "Stay back...Keep back...Move along."
+          }
+        ]
+      },
+      {
+        "name": "Scene 5 — The Walk",
+        "items": [
+          {
+            "type": "direction",
+            "text": "Characters: Jesus, Caiaphas, Pharisee, 3-4 Men for the Temple, Mary, Mary M., Salome, John, 4-5 Roman Guards, Simon the Cyrene & the Crowd"
+          },
+          {
+            "type": "direction",
+            "text": "During \"The Walk\", Jesus is in the center, the crowd to one side, and Mary and her group on the other side. Retreatants follow in the center. Mary and the women are crying, the crowd is talking amongst themselves, and the guards continue to scourge Jesus."
+          },
+          {
+            "type": "direction",
+            "text": "Fall #'s 1 & 2: Centurion and Roman Guard: (Pushing, grabbing Jesus' beard, and in His face chastising Jesus) You don't look like much of a king to me. Where's your kingdom? Get up, Get moving, we have something special for the King of the Jews!"
+          },
+          {
+            "type": "line",
+            "character": "Mary",
+            "text": "(attempting to reach Jesus, the other women and John pull her back) My Jesus, my child!"
+          },
+          {
+            "type": "direction",
+            "text": "Fall # 3: Jesus drops the cross, falls to all fours. Mary rushes to Jesus, no words spoken; but she cradles His face in her hands. The Centurion will allow her a moment (approximately 15-20 secs), then the other women pull her away."
+          },
+          {
+            "type": "line",
+            "character": "Centurion",
+            "text": "(pushes Jesus all the way to the ground with his foot) Enough of this, You don't act like a mighty king to me. (to a guard) Bring me someone who can carry His cross!"
+          },
+          {
+            "type": "line",
+            "character": "Roman Guard",
+            "text": "(Pointing to Simon in the back of the crowd, and pushing the crowd away) You there, come here! Pick up His cross and carry it or you'll find yourself hanging beside him."
+          },
+          {
+            "type": "direction",
+            "text": "Simon hurriedly picks up the cross, has the cross in one arm and Jesus in the other and \"the Walk\" continues to next Scene. Guards are still taunting Jesus."
+          }
+        ]
+      },
+      {
+        "name": "Scene 6 — Reflection",
+        "items": [
+          {
+            "type": "direction",
+            "text": "At this point the entire group will pause. The Narrator will ask the Retreatants to stop and pause, while Jesus continues on to the cross. The Narrator will read Narration Scene 6, putting into perspective what has been taking place. He will also ask the Retreatants to consider the impact on themselves and then pray."
+          },
+          {
+            "type": "direction",
+            "text": "We need to \"hold\" the retreatants for at least 5 minutes. Pass out nails."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus and all characters will continue on to the cross, thieves will be on the cross. Everyone else will be in place around the cross...the crowd to one side and Mary and her party, which will include a couple of men, to the other. The Centurion will be beside the cross and the other guards will be just to the side of the cross with the purple sash from the Scourge scene. Once the Retreatants arrive, they will be talking among themselves and \"casting lots\" for Jesus' garments."
+          },
+          {
+            "type": "direction",
+            "text": "Narrator:"
+          },
+          {
+            "type": "direction",
+            "text": "Men I would like for us to pause here for just a moment and reflect on what has taken place here tonight. You have witnessed a great deal. You have seen Jesus, the Son of God in the flesh, serve the ones He was closest to and be betrayed by one of those men. You have seen Him tried before an illegal court where He was mocked, ridiculed, and physically abused. You witnessed Him before Pilate and saw Him scourged almost to the point of death. Have you ever asked \"WHY?\" Why would He do that? Why would any man, let alone the Son of God, endure that? Those are the questions I want to think about...see the night is not over for Him. Men you are going to receive something, and I ask that you hold onto it...Consider what He is about to suffer through and why?"
+          },
+          {
+            "type": "direction",
+            "text": "Once the Narrator has finished praying, the guards at the Crucifixion Scene will be queued and begin hammering the spikes \"into\" Jesus. Jesus will cry out in agony; so as the Retreatants are walking into the area they will hear the hammering and the cries."
+          },
+          {
+            "type": "direction",
+            "text": "The Retreatants will enter the \"Chapel area\" and gather around the cross. Once everyone is in place the scene will begin."
+          }
+        ]
+      },
+      {
+        "name": "Scene 7 — The Crucifixion And Tomb",
+        "items": [
+          {
+            "type": "direction",
+            "text": "Once the Retreatants are in place, the scene begins with Mary, John and woman sitting up in front of the cross"
+          },
+          {
+            "type": "line",
+            "character": "Roman Guards",
+            "text": "(just to the side of the cross, circled up examining the purple cloth that was on Jesus in scene 4) This is a fine piece of Linen; let's not split it up between us, but let's cast lots for it...the winner takes it all."
+          },
+          {
+            "type": "direction",
+            "text": "The guards knee down and begin to roll dice and talk among themselves."
+          },
+          {
+            "type": "line",
+            "character": "Caiaphas and Crowd",
+            "text": "(shouting at Jesus, throwing their arms at Him in disgust) You were going to destroy the temple in 3 days and rebuild it...then save yourself. If you are the Son of God, come down off the cross and save yourself. He saved others but He can't save Himself...doesn't look much like a king to me. If He is the Son of God, come down off that cross then we'll know you're the Son of God."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "(looking down at His mom and John) Woman, here is your son and here is your mother."
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "(head lifted) Father forgive them, for they know not what they do."
+          },
+          {
+            "type": "line",
+            "character": "Thief #2",
+            "text": "(shouting sarcastically) Are you not the Christ? Save yourself and us!"
+          },
+          {
+            "type": "line",
+            "character": "Thief #1",
+            "text": "(Responding to Thief # 2) Do you not even fear God? We are suffering justly, for we are receiving what we deserve for our deeds; this man has done nothing wrong. (to Jesus) Jesus, remember me when You come into Your Kingdom!"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "(to Thief # 1) Truly I say to you, today you shall be with Me in Paradise! (pauses, looks up) My God, My God, why have you forsaken me?"
+          },
+          {
+            "type": "line",
+            "character": "Someone in the Crowd",
+            "text": "He is calling for Elijah!"
+          },
+          {
+            "type": "line",
+            "character": "Someone else in the Crowd",
+            "text": "(sarcastically) Let's see if Elijah comes and pulls Him off that cross!"
+          },
+          {
+            "type": "line",
+            "character": "Jesus",
+            "text": "(exhausted, looking up): Father, into your hands I commit My Spirit."
+          },
+          {
+            "type": "direction",
+            "text": "Jesus drops his head and relaxes, He is dead. Lighting flashes and thunder rolls. The Roman guards now stand up, and everyone stares at Jesus."
+          },
+          {
+            "type": "line",
+            "character": "Centurion",
+            "text": "(Now humbled by what he has witnessed, takes off his helmet) Truly this was the Son of God!"
+          },
+          {
+            "type": "direction",
+            "text": "All Guards, 1 on each side, the other 3 in front, take Jesus off the cross. He falls into the 3 guards. At this same time Mary is moving towards Jesus with her arms extended. As the guards get him down, they turn toward Mary, she kneels down, and they place Jesus in her arms."
+          },
+          {
+            "type": "direction",
+            "text": "Singing begins"
+          },
+          {
+            "type": "direction",
+            "text": "Two Men from the Disciples pick up Jesus and carry Him to the tomb, followed by the guards and the crowd. The tomb has been dark, but once the music is over the lights on the tomb come on. They will place Him in the tomb. The guards then roll the stone to seal the tomb. The Centurion motions to 2 guards to stand watch. At this point all of the Cast, except the 2 guards at the tomb will move to the back of the Chapel area. The Narrator asks retreatants to sit on the benches."
+          },
+          {
+            "type": "line",
+            "character": "Narrator",
+            "text": "I want you to stop and consider all you've seen tonight. Jesus showed us how to serve by bending down and washing his disciples' feet. He showed the power of prayer in connecting his will to the Father in the garden. He"
+          },
+          {
+            "type": "direction",
+            "text": "showed us compassion in seeking no revenge in Judas' betrayal. He demonstrated grace and mercy in crying out for the forgiveness of those who abused him. He displayed the extravagant love of God in laying down his life for every one of us."
+          },
+          {
+            "type": "direction",
+            "text": "I want to invite you tonight to believe. Believe that Jesus Christ loves you and gave himself for you. Believe that Jesus Christ has wiped out every bit of sin, shame, regret, and hurt you've experienced, removing it and nailing it to the cross. True redemption is available to you through the blood of Jesus Christ, the full forgiveness of your sins. For now, there is NO condemnation for those who are in Christ Jesus."
+          },
+          {
+            "type": "direction",
+            "text": "Each of you should have received a nail. You now have an opportunity to nail it to this cross. In your lanyard, you also have an extra name tag in the middle. When I pray, I'm going to invite each of you to nail your cross and your nametag to the cross. This may be a reminder for you of when you nailed your sin, your brokenness, and your identity apart from Jesus to the cross. Tonight might be the first time you've ever made that decision. If you're not ready tonight, you can keep your name tag and if you later decide to do so, the cross will be available, and you can place your name tag on the cross then."
+          },
+          {
+            "type": "direction",
+            "text": "Once all of the men have had an opportunity to nail their name tag the Narrator will pray. During his prayer the lights on the cross are turned out, so that only the"
+          },
+          {
+            "type": "direction",
+            "text": "tomb is lit and visible. The last thing the Retreatants will see as they are leaving is the tomb with 2 Guards."
+          }
+        ]
+      }
+    ]
+  }
+};
