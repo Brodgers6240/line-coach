@@ -1,4 +1,5 @@
 // Auto-generated from Last Supper Script.docx + Passion Script_260407_180733.pdf
+// Audio paths added by generate_audio.py
 window.SCRIPTS = {
   "last_supper": {
     "title": "The Last Supper",
@@ -13,17 +14,20 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Go and prepare the Passover meal for us, so we can eat it."
+            "text": "Go and prepare the Passover meal for us, so we can eat it.",
+            "audioFile": "audio/last_supper/0000_jesus.mp3"
           },
           {
             "type": "line",
             "character": "John",
-            "text": "Where do you want us to prepare it?"
+            "text": "Where do you want us to prepare it?",
+            "audioFile": "audio/last_supper/0001_john.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Listen, when you've entered the city, a man carrying a water jug will meet you. Follow him into the house he enters. Tell the owner of the house, The Teacher asks You, where is the guest room where I can eat the Passover with my disciples? Then he will show you a large furnished room. Make the preparations there."
+            "text": "Listen, when you've entered the city, a man carrying a water jug will meet you. Follow him into the house he enters. Tell the owner of the house, The Teacher asks You, where is the guest room where I can eat the Passover with my disciples? Then he will show you a large furnished room. Make the preparations there.",
+            "audioFile": "audio/last_supper/0002_jesus.mp3"
           },
           {
             "type": "direction",
@@ -32,22 +36,26 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Carpenter apprentice",
-            "text": "Is that him? Is that the one they call Jesus?"
+            "text": "Is that him? Is that the one they call Jesus?",
+            "audioFile": "audio/last_supper/0003_carpenter_apprentice.mp3"
           },
           {
             "type": "line",
             "character": "Carpenter",
-            "text": "Who- him? Are you Jesus? Are you the one that everyone is talking about?"
+            "text": "Who- him? Are you Jesus? Are you the one that everyone is talking about?",
+            "audioFile": "audio/last_supper/0004_carpenter.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "I am. You know I was a carpenter. What are you building?"
+            "text": "I am. You know I was a carpenter. What are you building?",
+            "audioFile": "audio/last_supper/0005_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Carpenter",
-            "text": "A cross."
+            "text": "A cross.",
+            "audioFile": "audio/last_supper/0006_carpenter.mp3"
           },
           {
             "type": "direction",
@@ -77,32 +85,38 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Peter",
-            "text": "Lord, are you going to wash my feet?"
+            "text": "Lord, are you going to wash my feet?",
+            "audioFile": "audio/last_supper/0007_peter.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "What I'm doing you don't understand now, but later you will know."
+            "text": "What I'm doing you don't understand now, but later you will know.",
+            "audioFile": "audio/last_supper/0008_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "No! You will never wash my feet."
+            "text": "No! You will never wash my feet.",
+            "audioFile": "audio/last_supper/0009_peter.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Unless I wash your feet, you have no part with me."
+            "text": "Unless I wash your feet, you have no part with me.",
+            "audioFile": "audio/last_supper/0010_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "Lord, not only my feet, but my hands and head as well!"
+            "text": "Lord, not only my feet, but my hands and head as well!",
+            "audioFile": "audio/last_supper/0011_peter.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "A person who has bathed all over does not need to wash, except for the feet, to be entirely clean and You disciples are clean, but not all of you."
+            "text": "A person who has bathed all over does not need to wash, except for the feet, to be entirely clean and You disciples are clean, but not all of you.",
+            "audioFile": "audio/last_supper/0012_jesus.mp3"
           },
           {
             "type": "direction",
@@ -111,7 +125,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Do you understand what I was doing? You call me 'Teacher' and 'Lord' and you are right because that's what I am. And since I have washed your feet, you ought to wash each other's feet. I have given you an example to follow. Do as I have done to you."
+            "text": "Do you understand what I was doing? You call me 'Teacher' and 'Lord' and you are right because that's what I am. And since I have washed your feet, you ought to wash each other's feet. I have given you an example to follow. Do as I have done to you.",
+            "audioFile": "audio/last_supper/0013_jesus.mp3"
           },
           {
             "type": "direction",
@@ -124,67 +139,80 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Andrew",
-            "text": "Thank you Jesus for inviting us to join you at this table tonight."
+            "text": "Thank you Jesus for inviting us to join you at this table tonight.",
+            "audioFile": "audio/last_supper/0014_andrew.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "I have been very eager to eat this Passover meal with all of you."
+            "text": "I have been very eager to eat this Passover meal with all of you.",
+            "audioFile": "audio/last_supper/0015_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Andrew",
-            "text": "I remember the first time I saw you. I was standing next to John the Baptist and overheard him say \"Look the Lamb of God!\" I began following you and couldn't wait to tell my brother Peter."
+            "text": "I remember the first time I saw you. I was standing next to John the Baptist and overheard him say \"Look the Lamb of God!\" I began following you and couldn't wait to tell my brother Peter.",
+            "audioFile": "audio/last_supper/0016_andrew.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "I remember that day like it was yesterday you came running up to me with excitement claiming that you had found the Messiah. Later Andrew and I were washing our nets when Jesus, \"The Messiah\", showed up and got in my boat. He had a large crowd following him and asked me to put him out a little from the shore. Then he sat down and began teaching from my boat. When he finished speaking, he told me to put out into deep water and let down my nets for the catch. We had been fishing all night long and caught nothing."
+            "text": "I remember that day like it was yesterday you came running up to me with excitement claiming that you had found the Messiah. Later Andrew and I were washing our nets when Jesus, \"The Messiah\", showed up and got in my boat. He had a large crowd following him and asked me to put him out a little from the shore. Then he sat down and began teaching from my boat. When he finished speaking, he told me to put out into deep water and let down my nets for the catch. We had been fishing all night long and caught nothing.",
+            "audioFile": "audio/last_supper/0017_peter.mp3"
           },
           {
             "type": "line",
             "character": "Andrew",
-            "text": "Yeah, I thought Jesus was crazy. You could tell by looking at him that he never fished a day in his life."
+            "text": "Yeah, I thought Jesus was crazy. You could tell by looking at him that he never fished a day in his life.",
+            "audioFile": "audio/last_supper/0018_andrew.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Well you are better fishers of men then you were of fish."
+            "text": "Well you are better fishers of men then you were of fish.",
+            "audioFile": "audio/last_supper/0019_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "Yes Master thanks to you. We listened to You, and we caught so many fish that I had to signal to James and John to help lift our nets."
+            "text": "Yes Master thanks to you. We listened to You, and we caught so many fish that I had to signal to James and John to help lift our nets.",
+            "audioFile": "audio/last_supper/0020_peter.mp3"
           },
           {
             "type": "line",
             "character": "Thaddeus",
-            "text": "oh yes- the sons of Zebedee. The sons of Thunder"
+            "text": "oh yes- the sons of Zebedee. The sons of Thunder",
+            "audioFile": "audio/last_supper/0021_thaddeus.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "They came to help, and both our boats began to sink due to the weight of all the fish we caught. I caught more fish that day than I have caught in a year. Speaking of fish, Philip tell about the time our Master fed the 5,000?"
+            "text": "They came to help, and both our boats began to sink due to the weight of all the fish we caught. I caught more fish that day than I have caught in a year. Speaking of fish, Philip tell about the time our Master fed the 5,000?",
+            "audioFile": "audio/last_supper/0022_peter.mp3"
           },
           {
             "type": "line",
             "character": "James",
-            "text": "You mean 5,000 men. That is not counting women and children."
+            "text": "You mean 5,000 men. That is not counting women and children.",
+            "audioFile": "audio/last_supper/0023_james.mp3"
           },
           {
             "type": "line",
             "character": "Philip",
-            "text": "You are right James there was a lot more than 5000 people there that day. Jesus had just crossed the sea of Galilee and a huge crowd was following him. They were so hungry for the words Jesus was speaking. Jesus came and sat with us on the mountain and the huge crowd continued toward him. I asked, \"where will we buy bread so these people can eat?\" Almost like an answer to a pray- Andrew, the Bringer, found a boy with 5 loaves of bread and 2 fish."
+            "text": "You are right James there was a lot more than 5000 people there that day. Jesus had just crossed the sea of Galilee and a huge crowd was following him. They were so hungry for the words Jesus was speaking. Jesus came and sat with us on the mountain and the huge crowd continued toward him. I asked, \"where will we buy bread so these people can eat?\" Almost like an answer to a pray- Andrew, the Bringer, found a boy with 5 loaves of bread and 2 fish.",
+            "audioFile": "audio/last_supper/0024_philip.mp3"
           },
           {
             "type": "line",
             "character": "Andrew",
-            "text": "Oh yes, I remember that boy. He was so willing to serve. I knew this wasn't enough to feed all the people. But Jesus took the 5 loaves and fish blessed it and began passing it to the crowd. When they were full, Jesus told us to collect the leftovers so that nothing was wasted."
+            "text": "Oh yes, I remember that boy. He was so willing to serve. I knew this wasn't enough to feed all the people. But Jesus took the 5 loaves and fish blessed it and began passing it to the crowd. When they were full, Jesus told us to collect the leftovers so that nothing was wasted.",
+            "audioFile": "audio/last_supper/0025_andrew.mp3"
           },
           {
             "type": "line",
             "character": "John",
-            "text": "I still can't believe we collected 12 baskets of leftovers. Jesus taught us that day to put our lives in his hands so he could do things with it that no one could ever imagine. After Jesus called Peter and Andrew to follow Him, He came to me and my brother James. We were in the boat nearby with our father Zebedee, mending our nets. When He called us, and we immediately left the boat and our father, and followed Him."
+            "text": "I still can't believe we collected 12 baskets of leftovers. Jesus taught us that day to put our lives in his hands so he could do things with it that no one could ever imagine. After Jesus called Peter and Andrew to follow Him, He came to me and my brother James. We were in the boat nearby with our father Zebedee, mending our nets. When He called us, and we immediately left the boat and our father, and followed Him.",
+            "audioFile": "audio/last_supper/0026_john.mp3"
           },
           {
             "type": "direction",
@@ -193,7 +221,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Matthew",
-            "text": "The first time I met Jesus, I was sitting in my tax collector booth and Jesus said to me \"follow me and be my disciple\". I knew something was different about him. I got up leaving everything behind to follow him. Before I knew Jesus my money and my job was my god; they were the only thing I worshiped. Jesus knew the man I was. I was hated by everyone, and I really don't blame them. Jesus, you loved me even in my sin and shame. I thought I was unlovable."
+            "text": "The first time I met Jesus, I was sitting in my tax collector booth and Jesus said to me \"follow me and be my disciple\". I knew something was different about him. I got up leaving everything behind to follow him. Before I knew Jesus my money and my job was my god; they were the only thing I worshiped. Jesus knew the man I was. I was hated by everyone, and I really don't blame them. Jesus, you loved me even in my sin and shame. I thought I was unlovable.",
+            "audioFile": "audio/last_supper/0027_matthew.mp3"
           },
           {
             "type": "direction",
@@ -206,7 +235,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "James the Lesser",
-            "text": "(shaking his head) Just because I am smaller than most men- I am Little James. I will tell you it was an unforgettable day. I was walking, I saw a crowd and could sense the excitement. John the Baptist was baptizing. This is the day John baptized Jesus. John at first refused to baptize Him, but Jesus insisted. After John baptized Him, the heavens opened, and the Holy Spirit descended on Him in the form of a dove and I heard a voice from heaven saying \"This is My beloved son, in whom I am well pleased. I will never forget it- it was incredible!"
+            "text": "(shaking his head) Just because I am smaller than most men- I am Little James. I will tell you it was an unforgettable day. I was walking, I saw a crowd and could sense the excitement. John the Baptist was baptizing. This is the day John baptized Jesus. John at first refused to baptize Him, but Jesus insisted. After John baptized Him, the heavens opened, and the Holy Spirit descended on Him in the form of a dove and I heard a voice from heaven saying \"This is My beloved son, in whom I am well pleased. I will never forget it- it was incredible!",
+            "audioFile": "audio/last_supper/0028_james_the_lesser.mp3"
           },
           {
             "type": "direction",
@@ -215,42 +245,50 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Simon",
-            "text": "You all know I was a Zealot. That I wanted to overthrow the Romans by force- to restore the glory of Israel. But Jesus, He told me about another kind of kingdom, one that isn't on earth, but it is spiritual and eternal. It's a future kingdom, but it also exists now in our hearts. I changed because of Jesus. He showed me to stop fighting against countries and rulers and start fighting for people's souls, to bring them back to the heart of God. I have surrendered myself to Him. This surrendered didn't imprison me, it set me free for the first time in my life."
+            "text": "You all know I was a Zealot. That I wanted to overthrow the Romans by force- to restore the glory of Israel. But Jesus, He told me about another kind of kingdom, one that isn't on earth, but it is spiritual and eternal. It's a future kingdom, but it also exists now in our hearts. I changed because of Jesus. He showed me to stop fighting against countries and rulers and start fighting for people's souls, to bring them back to the heart of God. I have surrendered myself to Him. This surrendered didn't imprison me, it set me free for the first time in my life.",
+            "audioFile": "audio/last_supper/0029_simon.mp3"
           },
           {
             "type": "line",
             "character": "James",
-            "text": "I will tell out something that wasn't free. When Mary washed Jesus' feet with that expensive ointment and perfume. It wasn't free, but the room sure smelled good."
+            "text": "I will tell out something that wasn't free. When Mary washed Jesus' feet with that expensive ointment and perfume. It wasn't free, but the room sure smelled good.",
+            "audioFile": "audio/last_supper/0030_james.mp3"
           },
           {
             "type": "line",
             "character": "Judas",
-            "text": "That was such a waste of money. We could have sold that perfume and given it to the poor. As the treasurer I can assure you we I could have found a better way to spend that money then to pour it out."
+            "text": "That was such a waste of money. We could have sold that perfume and given it to the poor. As the treasurer I can assure you we I could have found a better way to spend that money then to pour it out.",
+            "audioFile": "audio/last_supper/0031_judas.mp3"
           },
           {
             "type": "line",
             "character": "Nathaniel",
-            "text": "Phillip, do you remember the day you told me, you had found the One about whom Moses wrote in the law, and also the prophets."
+            "text": "Phillip, do you remember the day you told me, you had found the One about whom Moses wrote in the law, and also the prophets.",
+            "audioFile": "audio/last_supper/0032_nathaniel.mp3"
           },
           {
             "type": "line",
             "character": "Philip",
-            "text": "I sure do, Nathaniel. It was Jesus, the son of Joseph, a carpenter from Nazareth."
+            "text": "I sure do, Nathaniel. It was Jesus, the son of Joseph, a carpenter from Nazareth.",
+            "audioFile": "audio/last_supper/0033_philip.mp3"
           },
           {
             "type": "line",
             "character": "Nathaniel",
-            "text": "I said, \"Nazareth! Can anything good come from Nazareth?\" You said, \"Come and see.\" Jesus, you saw me coming and motioned to me and said"
+            "text": "I said, \"Nazareth! Can anything good come from Nazareth?\" You said, \"Come and see.\" Jesus, you saw me coming and motioned to me and said",
+            "audioFile": "audio/last_supper/0034_nathaniel.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "\"Here is a true Israelite, in whom there is no guilt.\""
+            "text": "\"Here is a true Israelite, in whom there is no guilt.\"",
+            "audioFile": "audio/last_supper/0035_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Nathaniel",
-            "text": "I replied, \"How do you know me?\" and you told me \"Before Phillip called you, I saw you underneath the fig tree.\""
+            "text": "I replied, \"How do you know me?\" and you told me \"Before Phillip called you, I saw you underneath the fig tree.\"",
+            "audioFile": "audio/last_supper/0036_nathaniel.mp3"
           },
           {
             "type": "direction",
@@ -263,17 +301,20 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Thomas",
-            "text": "That was an amazing night. Jesus was right about seeing great things. I cannot help but think about Lazarus, what a miracle. We saw something that I thought was truly impossible. Jesus spoke and Lazarus walked out the grave. We have all seen Jesus heal the sick, cure disease, open the eyes of the blind, unstop the ears of the dead, cleanse lepers. I cannot doubt that Jesus is the Son of God with all that I have seen."
+            "text": "That was an amazing night. Jesus was right about seeing great things. I cannot help but think about Lazarus, what a miracle. We saw something that I thought was truly impossible. Jesus spoke and Lazarus walked out the grave. We have all seen Jesus heal the sick, cure disease, open the eyes of the blind, unstop the ears of the dead, cleanse lepers. I cannot doubt that Jesus is the Son of God with all that I have seen.",
+            "audioFile": "audio/last_supper/0037_thomas.mp3"
           },
           {
             "type": "line",
             "character": "Thaddeus",
-            "text": "What about the time they lowered that man into the room through the roof? Those were true believers and friends. Or when He calmed the seas. I thought we were all going to die that night. Or when he cast out demons- do you remember those pigs?"
+            "text": "What about the time they lowered that man into the room through the roof? Those were true believers and friends. Or when He calmed the seas. I thought we were all going to die that night. Or when he cast out demons- do you remember those pigs?",
+            "audioFile": "audio/last_supper/0038_thaddeus.mp3"
           },
           {
             "type": "line",
             "character": "James",
-            "text": "Peter what about the time you walked on water."
+            "text": "Peter what about the time you walked on water.",
+            "audioFile": "audio/last_supper/0039_james.mp3"
           },
           {
             "type": "direction",
@@ -282,7 +323,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "I have been eager to eat this Passover meal with all of you before my sufferings begin. For I tell you now that I won't eat this meal again until its meaning is fulfilled in the Kingdom of God."
+            "text": "I have been eager to eat this Passover meal with all of you before my sufferings begin. For I tell you now that I won't eat this meal again until its meaning is fulfilled in the Kingdom of God.",
+            "audioFile": "audio/last_supper/0040_jesus.mp3"
           },
           {
             "type": "direction",
@@ -295,7 +337,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Take this and share it among yourselves. For I will not drink of the fruit of the vine until the Kingdom of God has come."
+            "text": "Take this and share it among yourselves. For I will not drink of the fruit of the vine until the Kingdom of God has come.",
+            "audioFile": "audio/last_supper/0041_jesus.mp3"
           },
           {
             "type": "direction",
@@ -308,7 +351,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "This is my body, which is given for you. Do this in remembrance of me."
+            "text": "This is my body, which is given for you. Do this in remembrance of me.",
+            "audioFile": "audio/last_supper/0042_jesus.mp3"
           },
           {
             "type": "direction",
@@ -317,7 +361,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "But look, the hand of the one who is to betray me is with me at this table; for the Son of Man indeed goes as it has been determined; but woe to that man by whom he is betrayed."
+            "text": "But look, the hand of the one who is to betray me is with me at this table; for the Son of Man indeed goes as it has been determined; but woe to that man by whom he is betrayed.",
+            "audioFile": "audio/last_supper/0043_jesus.mp3"
           },
           {
             "type": "direction",
@@ -326,12 +371,14 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "John",
-            "text": "Lord, who is it?"
+            "text": "Lord, who is it?",
+            "audioFile": "audio/last_supper/0044_john.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "He is the one I give the piece of bread to after I have dipped it."
+            "text": "He is the one I give the piece of bread to after I have dipped it.",
+            "audioFile": "audio/last_supper/0045_jesus.mp3"
           },
           {
             "type": "direction",
@@ -340,12 +387,14 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Judas",
-            "text": "Surely you don't mean me, Rabbi?"
+            "text": "Surely you don't mean me, Rabbi?",
+            "audioFile": "audio/last_supper/0046_judas.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "(speaking to Judas) What you're doing, do quickly."
+            "text": "(speaking to Judas) What you're doing, do quickly.",
+            "audioFile": "audio/last_supper/0047_jesus.mp3"
           },
           {
             "type": "direction",
@@ -354,17 +403,20 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Thomas",
-            "text": "He is probably buying things for the festival…"
+            "text": "He is probably buying things for the festival…",
+            "audioFile": "audio/last_supper/0048_thomas.mp3"
           },
           {
             "type": "line",
             "character": "James",
-            "text": "Or giving something to the poor…"
+            "text": "Or giving something to the poor…",
+            "audioFile": "audio/last_supper/0049_james.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "I give you a new command: Love one another. Just as I have loved you, you must also love one another. By this all people will know that you are my disciples if you have love for one another. Behold, the hour has come when you will be scattered, each to his own home, and will leave me alone. Yet I am not alone, for the Father is with me. I have said these things to you, that in me you may have peace. In the world you will have trouble, but take heart, I have overcome the world. Come, it is time to go."
+            "text": "I give you a new command: Love one another. Just as I have loved you, you must also love one another. By this all people will know that you are my disciples if you have love for one another. Behold, the hour has come when you will be scattered, each to his own home, and will leave me alone. Yet I am not alone, for the Father is with me. I have said these things to you, that in me you may have peace. In the world you will have trouble, but take heart, I have overcome the world. Come, it is time to go.",
+            "audioFile": "audio/last_supper/0050_jesus.mp3"
           },
           {
             "type": "direction",
@@ -378,7 +430,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "You are all Jesus' faithful disciples as are these men that you have seen tonight. You have been commissioned and sent forth to do the work of the Father through your Salvation, becoming part of the true Body of Christ in your homes, in your churches, and in the community. Through the study of God's word, learning and reinforcing your faith and your relationship with Him."
+            "text": "You are all Jesus' faithful disciples as are these men that you have seen tonight. You have been commissioned and sent forth to do the work of the Father through your Salvation, becoming part of the true Body of Christ in your homes, in your churches, and in the community. Through the study of God's word, learning and reinforcing your faith and your relationship with Him.",
+            "audioFile": "audio/last_supper/0051_narrator.mp3"
           },
           {
             "type": "direction",
@@ -395,7 +448,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "After Jesus shared the Passover meal with his disciples that you have just witnessed, he did what he so often did, he retreated to a quiet place to pray to his Father. Jesus went out to the Mount of Olives and his disciples followed him there. Come, let us join them there now."
+            "text": "After Jesus shared the Passover meal with his disciples that you have just witnessed, he did what he so often did, he retreated to a quiet place to pray to his Father. Jesus went out to the Mount of Olives and his disciples followed him there. Come, let us join them there now.",
+            "audioFile": "audio/last_supper/0052_narrator.mp3"
           },
           {
             "type": "direction",
@@ -422,7 +476,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "On the way to the cross, on the eve of our Jesus' crucifixion, He led his disciples to pray in the Garden of Gethsemane. He was immediately followed by his 3 closest disciples: Peter, James, and John. As He prayed, his sweat became like drops of blood falling to the ground. Here we see Jesus' humanity at its deepest level. He knew the path before him. It was in the garden, on his knees in prayer that He submitted his will to His Father."
+            "text": "On the way to the cross, on the eve of our Jesus' crucifixion, He led his disciples to pray in the Garden of Gethsemane. He was immediately followed by his 3 closest disciples: Peter, James, and John. As He prayed, his sweat became like drops of blood falling to the ground. Here we see Jesus' humanity at its deepest level. He knew the path before him. It was in the garden, on his knees in prayer that He submitted his will to His Father.",
+            "audioFile": "audio/passion/0000_narrator.mp3"
           },
           {
             "type": "direction",
@@ -431,7 +486,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Stay here while I go over there and pray. My soul is extremely heavy, even to the point of death. Remain here and keep watch with me."
+            "text": "Stay here while I go over there and pray. My soul is extremely heavy, even to the point of death. Remain here and keep watch with me.",
+            "audioFile": "audio/passion/0001_jesus.mp3"
           },
           {
             "type": "direction",
@@ -440,7 +496,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Father, the hour has come. Glorify your Son, that your Son may glorify you. For you granted him authority over all people that he might give eternal life to all those you have given him. My Father, if it is possible, let this cup pass from Me; yet not as I will, but as You will."
+            "text": "Father, the hour has come. Glorify your Son, that your Son may glorify you. For you granted him authority over all people that he might give eternal life to all those you have given him. My Father, if it is possible, let this cup pass from Me; yet not as I will, but as You will.",
+            "audioFile": "audio/passion/0002_jesus.mp3"
           },
           {
             "type": "direction",
@@ -449,12 +506,14 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Why are you sleeping? Can you not stay awake and watch with me for just an hour?"
+            "text": "Why are you sleeping? Can you not stay awake and watch with me for just an hour?",
+            "audioFile": "audio/passion/0003_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "Forgive us Lord, it is late and... (continue speaking until Jesus interrupts)"
+            "text": "Forgive us Lord, it is late and... (continue speaking until Jesus interrupts)",
+            "audioFile": "audio/passion/0004_peter.mp3"
           },
           {
             "type": "direction",
@@ -463,7 +522,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Behold, the time has come, and the Son of Man is being betrayed into the hands of sinners. Rise, my betrayer is here!"
+            "text": "Behold, the time has come, and the Son of Man is being betrayed into the hands of sinners. Rise, my betrayer is here!",
+            "audioFile": "audio/passion/0005_jesus.mp3"
           },
           {
             "type": "direction",
@@ -472,42 +532,50 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Judas",
-            "text": "Whomever I kiss, He is the One; seize Him. (Judas then approaches Jesus)"
+            "text": "Whomever I kiss, He is the One; seize Him. (Judas then approaches Jesus)",
+            "audioFile": "audio/passion/0006_judas.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Who is it you want?"
+            "text": "Who is it you want?",
+            "audioFile": "audio/passion/0007_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Pharisee",
-            "text": "Jesus of Nazareth"
+            "text": "Jesus of Nazareth",
+            "audioFile": "audio/passion/0008_pharisee.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "I am He."
+            "text": "I am He.",
+            "audioFile": "audio/passion/0009_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "(stopping Judas) Judas, are you betraying the Son of Man with a kiss?"
+            "text": "(stopping Judas) Judas, are you betraying the Son of Man with a kiss?",
+            "audioFile": "audio/passion/0010_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "(stepping toward Jesus and Judas and beginning to draw a sword) Lord, shall we strike with the sword?"
+            "text": "(stepping toward Jesus and Judas and beginning to draw a sword) Lord, shall we strike with the sword?",
+            "audioFile": "audio/passion/0011_peter.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "(Turning towards Peter, raising a hand to stop and calm him) Put the sword away; for all those who take up the sword will die by the sword. Do you not think I could call down more than 12 legions of angels? This must happen to fulfill Scripture."
+            "text": "(Turning towards Peter, raising a hand to stop and calm him) Put the sword away; for all those who take up the sword will die by the sword. Do you not think I could call down more than 12 legions of angels? This must happen to fulfill Scripture.",
+            "audioFile": "audio/passion/0012_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Pharisee",
-            "text": "(Pointing to Jesus) Seize Him now!"
+            "text": "(Pointing to Jesus) Seize Him now!",
+            "audioFile": "audio/passion/0013_pharisee.mp3"
           },
           {
             "type": "direction",
@@ -520,7 +588,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "John",
-            "text": "Come on Peter, let's go now! We must leave!"
+            "text": "Come on Peter, let's go now! We must leave!",
+            "audioFile": "audio/passion/0014_john.mp3"
           },
           {
             "type": "direction",
@@ -529,7 +598,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "Jesus passionately prayed three times that this cup would pass from him. It was the cup of suffering. He was about to take on the sins of the world. This sacrifice would also become salvation to the world. Our salvation, our freedom, and the will of the Father gave Jesus the strength to go on. For 30 pieces of silver, Jesus was betrayed by one of his closest followers. What is our relationship with Jesus worth to us? At what cost have we betrayed that relationship for someone or something else? Jesus is being led away by the Pharisees now, Let's follow Him as He continues his journey."
+            "text": "Jesus passionately prayed three times that this cup would pass from him. It was the cup of suffering. He was about to take on the sins of the world. This sacrifice would also become salvation to the world. Our salvation, our freedom, and the will of the Father gave Jesus the strength to go on. For 30 pieces of silver, Jesus was betrayed by one of his closest followers. What is our relationship with Jesus worth to us? At what cost have we betrayed that relationship for someone or something else? Jesus is being led away by the Pharisees now, Let's follow Him as He continues his journey.",
+            "audioFile": "audio/passion/0015_narrator.mp3"
           },
           {
             "type": "direction",
@@ -551,7 +621,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "Following Jesus' arrest, Caiaphas begins questioning him. Seeking to solidify his case against Jesus, Caiaphas tried to catch Jesus in speaking blasphemy publicly before the crowd. He had even planted false witnesses in the crowd to guarantee a ruling of death."
+            "text": "Following Jesus' arrest, Caiaphas begins questioning him. Seeking to solidify his case against Jesus, Caiaphas tried to catch Jesus in speaking blasphemy publicly before the crowd. He had even planted false witnesses in the crowd to guarantee a ruling of death.",
+            "audioFile": "audio/passion/0016_narrator.mp3"
           },
           {
             "type": "direction",
@@ -560,22 +631,26 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "(Speaking to the men of the Temple) Quiet, Quiet! (Now turns his attention to Jesus) Tell us by whose authority you teach? Who are these men that follow you? Your so-called disciples...they are not educated, and cannot possibly know all our laws and customs."
+            "text": "(Speaking to the men of the Temple) Quiet, Quiet! (Now turns his attention to Jesus) Tell us by whose authority you teach? Who are these men that follow you? Your so-called disciples...they are not educated, and cannot possibly know all our laws and customs.",
+            "audioFile": "audio/passion/0017_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "I have spoken openly in the marketplace and in the Temple, where all the Jews come together. I have said nothing in secret. Why do you question me? Question the ones who have heard me; they know what I have said."
+            "text": "I have spoken openly in the marketplace and in the Temple, where all the Jews come together. I have said nothing in secret. Why do you question me? Question the ones who have heard me; they know what I have said.",
+            "audioFile": "audio/passion/0018_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Temple Guard",
-            "text": "(stepping towards Jesus and hitting him across the head) Is that the way you answer the high priest?"
+            "text": "(stepping towards Jesus and hitting him across the head) Is that the way you answer the high priest?",
+            "audioFile": "audio/passion/0019_temple_guard.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "If I have not spoken the truth, testify to what is the lie; otherwise why do you hit me?"
+            "text": "If I have not spoken the truth, testify to what is the lie; otherwise why do you hit me?",
+            "audioFile": "audio/passion/0020_jesus.mp3"
           },
           {
             "type": "direction",
@@ -584,37 +659,44 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "Has anyone heard what this man has taught?"
+            "text": "Has anyone heard what this man has taught?",
+            "audioFile": "audio/passion/0021_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "False Witness",
-            "text": "(Witness speaks from the crowd) Yes, Yes! We have heard Him say, 'I will destroy the Temple of God and rebuild it after 3 days!"
+            "text": "(Witness speaks from the crowd) Yes, Yes! We have heard Him say, 'I will destroy the Temple of God and rebuild it after 3 days!",
+            "audioFile": "audio/passion/0022_false_witness.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "(Approaching Jesus, so that he is face to face) Do you not answer? What does this mean? (pause) What is this thing that these men testify against you? (Jesus stares at Caiaphas, then at the other men in the group. There is a quiet pause at this point)"
+            "text": "(Approaching Jesus, so that he is face to face) Do you not answer? What does this mean? (pause) What is this thing that these men testify against you? (Jesus stares at Caiaphas, then at the other men in the group. There is a quiet pause at this point)",
+            "audioFile": "audio/passion/0023_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "(Becoming angry, throws his arms in the air, turns around, takes a couple of steps away from Jesus, then turning around quickly rushes towards Jesus) I demand an oath of You by the Living God; tell me whether You are the Christ, The Son of God!!!"
+            "text": "(Becoming angry, throws his arms in the air, turns around, takes a couple of steps away from Jesus, then turning around quickly rushes towards Jesus) I demand an oath of You by the Living God; tell me whether You are the Christ, The Son of God!!!",
+            "audioFile": "audio/passion/0024_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "(unfazed by Caiaphas' rage, remains calm) You have said it yourself; but I will tell you, from now on you will see the Son of Man sitting at the Right Hand of Power and coming on the Clouds of Heaven."
+            "text": "(unfazed by Caiaphas' rage, remains calm) You have said it yourself; but I will tell you, from now on you will see the Son of Man sitting at the Right Hand of Power and coming on the Clouds of Heaven.",
+            "audioFile": "audio/passion/0025_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "(Completely overcome with anger and disbelief, tearing his robe) AAAHHHH!!! He has spoken blasphemy! We do not need any witnesses. You yourselves have heard Him insult the Living God! What do you think we should do with Him?"
+            "text": "(Completely overcome with anger and disbelief, tearing his robe) AAAHHHH!!! He has spoken blasphemy! We do not need any witnesses. You yourselves have heard Him insult the Living God! What do you think we should do with Him?",
+            "audioFile": "audio/passion/0026_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Rest of Men",
-            "text": "(Raising a fist shouting repeatedly) Crucify Him, He deserves death!"
+            "text": "(Raising a fist shouting repeatedly) Crucify Him, He deserves death!",
+            "audioFile": "audio/passion/0027_rest_of_men.mp3"
           },
           {
             "type": "direction",
@@ -623,12 +705,14 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Temple Guard",
-            "text": "(One by one the men strike Jesus on the head or body while saying) Prophesy, who is hitting You? Tell us Jesus, Son of God, who's hitting you now?"
+            "text": "(One by one the men strike Jesus on the head or body while saying) Prophesy, who is hitting You? Tell us Jesus, Son of God, who's hitting you now?",
+            "audioFile": "audio/passion/0028_temple_guard.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "(Arms in the air, waving back and forth) Enough, that's enough! Take Him to Pilate! Our laws will not allow us to place a death sentence on Him, but Pilate can. Take Him to the Praetorium!"
+            "text": "(Arms in the air, waving back and forth) Enough, that's enough! Take Him to Pilate! Our laws will not allow us to place a death sentence on Him, but Pilate can. Take Him to the Praetorium!",
+            "audioFile": "audio/passion/0029_caiaphas.mp3"
           },
           {
             "type": "direction",
@@ -637,7 +721,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "Convinced he has the proof that Jesus blasphemed, referring to himself as the Son of Man, Caiaphas leads Jesus to Pontius Pilate, the Roman procurator for their region, for approval to have Jesus executed by crucifixion. Jesus did not fight. He didn't resist. He walked the path His Father had set before him."
+            "text": "Convinced he has the proof that Jesus blasphemed, referring to himself as the Son of Man, Caiaphas leads Jesus to Pontius Pilate, the Roman procurator for their region, for approval to have Jesus executed by crucifixion. Jesus did not fight. He didn't resist. He walked the path His Father had set before him.",
+            "audioFile": "audio/passion/0030_narrator.mp3"
           },
           {
             "type": "direction",
@@ -646,42 +731,50 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Traveling Man #2",
-            "text": "Stop just a minute, let me catch my breath."
+            "text": "Stop just a minute, let me catch my breath.",
+            "audioFile": "audio/passion/0031_traveling_man_2.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "(carrying the torch) Come on, we need to hurry. I want to get there before it's over."
+            "text": "(carrying the torch) Come on, we need to hurry. I want to get there before it's over.",
+            "audioFile": "audio/passion/0032_traveling_man_1.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #2",
-            "text": "(hands on his hips, tired and agitated) I'm not sure what the big deal is. I'm telling you, this guy is asking for it, and he's going to get himself crucified!"
+            "text": "(hands on his hips, tired and agitated) I'm not sure what the big deal is. I'm telling you, this guy is asking for it, and he's going to get himself crucified!",
+            "audioFile": "audio/passion/0033_traveling_man_2.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "(in disbelief) Asking for it?!?! What do you mean?"
+            "text": "(in disbelief) Asking for it?!?! What do you mean?",
+            "audioFile": "audio/passion/0034_traveling_man_1.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #2",
-            "text": "He says He's the Son of God (making a gesture with his hands)...since when was the Son of God a carpenter from Nazareth? Nazareth?...Nothing good ever came from Nazareth."
+            "text": "He says He's the Son of God (making a gesture with his hands)...since when was the Son of God a carpenter from Nazareth? Nazareth?...Nothing good ever came from Nazareth.",
+            "audioFile": "audio/passion/0035_traveling_man_2.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "He may have been a carpenter, but I've seen Him heal Lepers, make the blind see. I was there when he fed all of us, more than 5,000 of us with just 2 fish and 5 little loaves of bread. I've heard him teach about loving your neighbor as yourself. (Pause) I just can't believe they want to kill him? Why?...What did He do? You ready...come on, this may be my last chance to see Him and I don't want to miss it."
+            "text": "He may have been a carpenter, but I've seen Him heal Lepers, make the blind see. I was there when he fed all of us, more than 5,000 of us with just 2 fish and 5 little loaves of bread. I've heard him teach about loving your neighbor as yourself. (Pause) I just can't believe they want to kill him? Why?...What did He do? You ready...come on, this may be my last chance to see Him and I don't want to miss it.",
+            "audioFile": "audio/passion/0036_traveling_man_1.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #2",
-            "text": "Alright, let's go. I still think He's asking for it; I wouldn't want those priests in the Temple mad at me."
+            "text": "Alright, let's go. I still think He's asking for it; I wouldn't want those priests in the Temple mad at me.",
+            "audioFile": "audio/passion/0037_traveling_man_2.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "(Begin to walk down the trail toward Scene 3, Peter's Denial. After a couple steps Man # 1 turns and faces the retreatants, looking straight at them. He is now speaking directly to them) Aren't you coming? Don't you want to see if He really is the Son of God? Come on, walk with us."
+            "text": "(Begin to walk down the trail toward Scene 3, Peter's Denial. After a couple steps Man # 1 turns and faces the retreatants, looking straight at them. He is now speaking directly to them) Aren't you coming? Don't you want to see if He really is the Son of God? Come on, walk with us.",
+            "audioFile": "audio/passion/0038_traveling_man_1.mp3"
           },
           {
             "type": "direction",
@@ -703,82 +796,98 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Traveling Man #2",
-            "text": "Look! Let's stop and rest with these people by the fire for just a minute. We're almost to Pilate's, and we'll get there in plenty of time for you to see your Jesus."
+            "text": "Look! Let's stop and rest with these people by the fire for just a minute. We're almost to Pilate's, and we'll get there in plenty of time for you to see your Jesus.",
+            "audioFile": "audio/passion/0039_traveling_man_2.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "Alright, but just for a minute. (calling out to the group at the firepit) Good evening, can we stop and warm ourselves by your fire?"
+            "text": "Alright, but just for a minute. (calling out to the group at the firepit) Good evening, can we stop and warm ourselves by your fire?",
+            "audioFile": "audio/passion/0040_traveling_man_1.mp3"
           },
           {
             "type": "line",
             "character": "Man at the Fire",
-            "text": "(waving the 2 men to come over) Yes, come and join us."
+            "text": "(waving the 2 men to come over) Yes, come and join us.",
+            "audioFile": "audio/passion/0041_man_at_the_fire.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #2",
-            "text": "Thank you. We could use a break."
+            "text": "Thank you. We could use a break.",
+            "audioFile": "audio/passion/0042_traveling_man_2.mp3"
           },
           {
             "type": "line",
             "character": "Man at the Fire",
-            "text": "You're welcome; There's a lot of strangers in town for Passover. It's an unusual night tonight, there's a lot going on...in town, at the Temple and now at Pilate's. Where are you headed at this hour?"
+            "text": "You're welcome; There's a lot of strangers in town for Passover. It's an unusual night tonight, there's a lot going on...in town, at the Temple and now at Pilate's. Where are you headed at this hour?",
+            "audioFile": "audio/passion/0043_man_at_the_fire.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "(placing the torch in a holder then standing at the fire) We are headed to Pilate's, to the Praetorium. I heard they have taken the man called Jesus there. We want to see him."
+            "text": "(placing the torch in a holder then standing at the fire) We are headed to Pilate's, to the Praetorium. I heard they have taken the man called Jesus there. We want to see him.",
+            "audioFile": "audio/passion/0044_traveling_man_1.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "(Standing by the fire) You say they have taken Jesus to Pilate's? Why would He be taken there?"
+            "text": "(Standing by the fire) You say they have taken Jesus to Pilate's? Why would He be taken there?",
+            "audioFile": "audio/passion/0045_peter.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #2",
-            "text": "We heard they want Him crucified."
+            "text": "We heard they want Him crucified.",
+            "audioFile": "audio/passion/0046_traveling_man_2.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "The priest never did like Him; and claiming to be the Son of God was the last straw for them. I'm afraid they will crucify Him if they get their way."
+            "text": "The priest never did like Him; and claiming to be the Son of God was the last straw for them. I'm afraid they will crucify Him if they get their way.",
+            "audioFile": "audio/passion/0047_traveling_man_1.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "(shocked) \"Crucify Him?!?!"
+            "text": "(shocked) \"Crucify Him?!?!",
+            "audioFile": "audio/passion/0048_peter.mp3"
           },
           {
             "type": "line",
             "character": "Woman at the fire",
-            "text": "(looking at Peter closely) I knew there was something about you; you looked so familiar. You were with Him, you're one of His followers!"
+            "text": "(looking at Peter closely) I knew there was something about you; you looked so familiar. You were with Him, you're one of His followers!",
+            "audioFile": "audio/passion/0049_woman_at_the_fire.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "(agitated, but not moving from the fire) I do not know what you're talking about; leave me alone woman!\""
+            "text": "(agitated, but not moving from the fire) I do not know what you're talking about; leave me alone woman!\"",
+            "audioFile": "audio/passion/0050_peter.mp3"
           },
           {
             "type": "line",
             "character": "Woman at the fire",
-            "text": "(moving towards Peter) No, it's you! I saw you with Him teaching in the Temple. You're one of his disciples!"
+            "text": "(moving towards Peter) No, it's you! I saw you with Him teaching in the Temple. You're one of his disciples!",
+            "audioFile": "audio/passion/0051_woman_at_the_fire.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "(angry and moving away from the fire) I told you I'm not with Him! I do not know the Man!"
+            "text": "(angry and moving away from the fire) I told you I'm not with Him! I do not know the Man!",
+            "audioFile": "audio/passion/0052_peter.mp3"
           },
           {
             "type": "line",
             "character": "Man at the Fire",
-            "text": "Surely you are one of them, the way you speak gives you away!"
+            "text": "Surely you are one of them, the way you speak gives you away!",
+            "audioFile": "audio/passion/0053_man_at_the_fire.mp3"
           },
           {
             "type": "line",
             "character": "Peter",
-            "text": "(in a rage and walking away from the fire, turning back to the group) I swear by my life, I do not know the Man!!!"
+            "text": "(in a rage and walking away from the fire, turning back to the group) I swear by my life, I do not know the Man!!!",
+            "audioFile": "audio/passion/0054_peter.mp3"
           },
           {
             "type": "direction",
@@ -787,7 +896,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Peter",
-            "text": "No, No Jesus! No"
+            "text": "No, No Jesus! No",
+            "audioFile": "audio/passion/0055_peter.mp3"
           },
           {
             "type": "direction",
@@ -796,22 +906,26 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "The time is drawing near. In these moments of darkness and betrayal, don't miss the grace and love of Christ shining through. As the rooster crowed, Peter immediately remembered Jesus earlier telling him he would betray Him 3 times. But Jesus already had a plan for Peter's life. He didn't condemn him for this failure, He would instead restore him and use him. Jesus offers the same to each one of us today. John 3:17 says that \"God didn't send his Son into the world to condemn it, but in order that the world might be saved through him.\""
+            "text": "The time is drawing near. In these moments of darkness and betrayal, don't miss the grace and love of Christ shining through. As the rooster crowed, Peter immediately remembered Jesus earlier telling him he would betray Him 3 times. But Jesus already had a plan for Peter's life. He didn't condemn him for this failure, He would instead restore him and use him. Jesus offers the same to each one of us today. John 3:17 says that \"God didn't send his Son into the world to condemn it, but in order that the world might be saved through him.\"",
+            "audioFile": "audio/passion/0056_narrator.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "(picks up the torch and speaks to the group by the fire) Thank you for letting us warm ourselves by your fire. We need to be on our way."
+            "text": "(picks up the torch and speaks to the group by the fire) Thank you for letting us warm ourselves by your fire. We need to be on our way.",
+            "audioFile": "audio/passion/0057_traveling_man_1.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #2",
-            "text": "(stepping away from the fire) Yes, thank you for your hospitality."
+            "text": "(stepping away from the fire) Yes, thank you for your hospitality.",
+            "audioFile": "audio/passion/0058_traveling_man_2.mp3"
           },
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "(looking to the retreatants, waving for them to follow, and speaking to them; everyone else in the scene ignores the retreatants) Come on, we are almost to Pilate's; it's just a short distance down the road."
+            "text": "(looking to the retreatants, waving for them to follow, and speaking to them; everyone else in the scene ignores the retreatants) Come on, we are almost to Pilate's; it's just a short distance down the road.",
+            "audioFile": "audio/passion/0059_traveling_man_1.mp3"
           }
         ]
       },
@@ -829,7 +943,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "While the guards were on their way to Pilates's with Jesus and the crowd following them, Claudia, Pilate's wife needed to speak to him urgently after she was sternly warned in a dream."
+            "text": "While the guards were on their way to Pilates's with Jesus and the crowd following them, Claudia, Pilate's wife needed to speak to him urgently after she was sternly warned in a dream.",
+            "audioFile": "audio/passion/0060_narrator.mp3"
           },
           {
             "type": "direction",
@@ -838,37 +953,44 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(to Claudia)- What have you awakened me? What is so important?"
+            "text": "(to Claudia)- What have you awakened me? What is so important?",
+            "audioFile": "audio/passion/0061_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Claudia",
-            "text": "I ask you to have nothing to do with this man."
+            "text": "I ask you to have nothing to do with this man.",
+            "audioFile": "audio/passion/0062_claudia.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "The one they are bringing. The one they call the King of the Jews?"
+            "text": "The one they are bringing. The one they call the King of the Jews?",
+            "audioFile": "audio/passion/0063_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Claudia",
-            "text": "Yes, Jesus. I have suffered so much this day through visions and dreams because of Him."
+            "text": "Yes, Jesus. I have suffered so much this day through visions and dreams because of Him.",
+            "audioFile": "audio/passion/0064_claudia.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "What do you suggest I do? There will be a mob if I don't condemn him."
+            "text": "What do you suggest I do? There will be a mob if I don't condemn him.",
+            "audioFile": "audio/passion/0065_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Claudia",
-            "text": "Don't let the pressure of the mob rule your heart. This man is innocent and righteous. Please have nothing to do with him."
+            "text": "Don't let the pressure of the mob rule your heart. This man is innocent and righteous. Please have nothing to do with him.",
+            "audioFile": "audio/passion/0066_claudia.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "Leave me, woman and take your dreams with you."
+            "text": "Leave me, woman and take your dreams with you.",
+            "audioFile": "audio/passion/0067_pilate.mp3"
           },
           {
             "type": "direction",
@@ -881,7 +1003,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Traveling Man #1",
-            "text": "I think I see Him, I think I see Jesus!"
+            "text": "I think I see Him, I think I see Jesus!",
+            "audioFile": "audio/passion/0068_traveling_man_1.mp3"
           },
           {
             "type": "direction",
@@ -890,7 +1013,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "The crowd quickly began to swell into a mob as day broke. Everyone wanted to see what they would do with this man Jesus. Some knew him as a great healer, some as a wise teacher, others as the Messiah himself, but now he was preparing to stand trial as a blasphemer of God and worthy of death."
+            "text": "The crowd quickly began to swell into a mob as day broke. Everyone wanted to see what they would do with this man Jesus. Some knew him as a great healer, some as a wise teacher, others as the Messiah himself, but now he was preparing to stand trial as a blasphemer of God and worthy of death.",
+            "audioFile": "audio/passion/0069_narrator.mp3"
           },
           {
             "type": "direction",
@@ -899,47 +1023,56 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Pilate",
-            "text": "Silence! Why do you seek an audience with me at this hour? What is it that you want?"
+            "text": "Silence! Why do you seek an audience with me at this hour? What is it that you want?",
+            "audioFile": "audio/passion/0070_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "(Responding to Pilate) We brought this man to you because He is guilty of crimes against our nation."
+            "text": "(Responding to Pilate) We brought this man to you because He is guilty of crimes against our nation.",
+            "audioFile": "audio/passion/0071_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(irritated) Then take Him and judge Him according to your law. Don't bring Him to me."
+            "text": "(irritated) Then take Him and judge Him according to your law. Don't bring Him to me.",
+            "audioFile": "audio/passion/0072_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "We are not permitted to put anyone to death."
+            "text": "We are not permitted to put anyone to death.",
+            "audioFile": "audio/passion/0073_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "Death? What accusation do you make against this Man that is worthy of death?"
+            "text": "Death? What accusation do you make against this Man that is worthy of death?",
+            "audioFile": "audio/passion/0074_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "We have found this man guilty of stirring up rebellion in our people, forbidding us to pay taxes to Caesar, and saying He Himself is Christ the King!"
+            "text": "We have found this man guilty of stirring up rebellion in our people, forbidding us to pay taxes to Caesar, and saying He Himself is Christ the King!",
+            "audioFile": "audio/passion/0075_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(with a smirk, turns to the Centurion, motioning for him to bring Jesus to him) \"Bring the Man to me.\""
+            "text": "(with a smirk, turns to the Centurion, motioning for him to bring Jesus to him) \"Bring the Man to me.\"",
+            "audioFile": "audio/passion/0076_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Centurion",
-            "text": "(walks over to Jesus, still in chains and with the hood over His head, takes hold of Jesus) The rest of you stay back! (He places Jesus in front of Pilate, but so Mary can see Him)"
+            "text": "(walks over to Jesus, still in chains and with the hood over His head, takes hold of Jesus) The rest of you stay back! (He places Jesus in front of Pilate, but so Mary can see Him)",
+            "audioFile": "audio/passion/0077_centurion.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(motioning to the Centurion to remove the hood, in a sarcastic tone) Remove the hood...Let me see what the King of the Jews looks like."
+            "text": "(motioning to the Centurion to remove the hood, in a sarcastic tone) Remove the hood...Let me see what the King of the Jews looks like.",
+            "audioFile": "audio/passion/0078_pilate.mp3"
           },
           {
             "type": "direction",
@@ -948,7 +1081,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Mary",
-            "text": "(horrified, cries out) My child, My Jesus...what have they done to you? Please no more, don't hurt my child!"
+            "text": "(horrified, cries out) My child, My Jesus...what have they done to you? Please no more, don't hurt my child!",
+            "audioFile": "audio/passion/0079_mary.mp3"
           },
           {
             "type": "direction",
@@ -957,37 +1091,44 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(looking intently but with curiosity) Are You the King of the Jews?"
+            "text": "(looking intently but with curiosity) Are You the King of the Jews?",
+            "audioFile": "audio/passion/0080_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "Is that what you think, or did someone tell you about me?"
+            "text": "Is that what you think, or did someone tell you about me?",
+            "audioFile": "audio/passion/0081_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "I am not a Jew, am I? Your own people and the chief priest brought you to me; what did you do to make them so angry?"
+            "text": "I am not a Jew, am I? Your own people and the chief priest brought you to me; what did you do to make them so angry?",
+            "audioFile": "audio/passion/0082_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "My Kingdom is not of this world; if it were, My servants would be fighting so that I would not be handed over to the Jews; but as I said, My Kingdom is not of this world."
+            "text": "My Kingdom is not of this world; if it were, My servants would be fighting so that I would not be handed over to the Jews; but as I said, My Kingdom is not of this world.",
+            "audioFile": "audio/passion/0083_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "So You are a king?"
+            "text": "So You are a king?",
+            "audioFile": "audio/passion/0084_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "You say correctly that I am a King. That is why I have been born, to testify to the truth. Everyone who is of the truth hears My voice."
+            "text": "You say correctly that I am a King. That is why I have been born, to testify to the truth. Everyone who is of the truth hears My voice.",
+            "audioFile": "audio/passion/0085_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(somewhat disgusted, but intrigued by Jesus) What is truth?"
+            "text": "(somewhat disgusted, but intrigued by Jesus) What is truth?",
+            "audioFile": "audio/passion/0086_pilate.mp3"
           },
           {
             "type": "direction",
@@ -996,52 +1137,62 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Pilate",
-            "text": "I find no guilt in this man. But, you have a custom that I release someone at Passover, do you wish that I release (gesturing back towards Jesus) the King of the Jews?"
+            "text": "I find no guilt in this man. But, you have a custom that I release someone at Passover, do you wish that I release (gesturing back towards Jesus) the King of the Jews?",
+            "audioFile": "audio/passion/0087_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "No. But you are holding one called Barabbas, correct?"
+            "text": "No. But you are holding one called Barabbas, correct?",
+            "audioFile": "audio/passion/0088_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "Yes, a true criminal; an insurrectionist and a murderer."
+            "text": "Yes, a true criminal; an insurrectionist and a murderer.",
+            "audioFile": "audio/passion/0089_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "Give him to us. Give us Barabbas!"
+            "text": "Give him to us. Give us Barabbas!",
+            "audioFile": "audio/passion/0090_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Crowd",
-            "text": "(waiving their fist in the air, pressing in on the 2 Roman guards, developing into a mob) Away with this Man, release Barabbas to us!"
+            "text": "(waiving their fist in the air, pressing in on the 2 Roman guards, developing into a mob) Away with this Man, release Barabbas to us!",
+            "audioFile": "audio/passion/0091_crowd.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(loudly) Then what shall I do with this Man, the one called the Christ?"
+            "text": "(loudly) Then what shall I do with this Man, the one called the Christ?",
+            "audioFile": "audio/passion/0092_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Crowd",
-            "text": "(pressing in on the guards, the guards pushing back) Crucify Him, Crucify Him!!!"
+            "text": "(pressing in on the guards, the guards pushing back) Crucify Him, Crucify Him!!!",
+            "audioFile": "audio/passion/0093_crowd.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(angered) What has He done to deserve Death? I have found no fault in Him!"
+            "text": "(angered) What has He done to deserve Death? I have found no fault in Him!",
+            "audioFile": "audio/passion/0094_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Crowd",
-            "text": "(moblike) Crucify Him!"
+            "text": "(moblike) Crucify Him!",
+            "audioFile": "audio/passion/0095_crowd.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "Silence!!! (calling to a slave out of sight) Slave, bring me a basin filled with water."
+            "text": "Silence!!! (calling to a slave out of sight) Slave, bring me a basin filled with water.",
+            "audioFile": "audio/passion/0096_pilate.mp3"
           },
           {
             "type": "direction",
@@ -1050,22 +1201,26 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Pilate",
-            "text": "I am innocent of this Man's blood!"
+            "text": "I am innocent of this Man's blood!",
+            "audioFile": "audio/passion/0097_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "His blood shall be on us and our children!"
+            "text": "His blood shall be on us and our children!",
+            "audioFile": "audio/passion/0098_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Crowd",
-            "text": "Yes, His blood will be on us and our children! Crucify Him!"
+            "text": "Yes, His blood will be on us and our children! Crucify Him!",
+            "audioFile": "audio/passion/0099_crowd.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(throws arms in the air) Silence!"
+            "text": "(throws arms in the air) Silence!",
+            "audioFile": "audio/passion/0100_pilate.mp3"
           },
           {
             "type": "direction",
@@ -1074,12 +1229,14 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Mary",
-            "text": "(falling to the ground, screaming in agony.) No, No, do not take my child. Do not kill my Jesus. You can't! Please don't, please!"
+            "text": "(falling to the ground, screaming in agony.) No, No, do not take my child. Do not kill my Jesus. You can't! Please don't, please!",
+            "audioFile": "audio/passion/0101_mary.mp3"
           },
           {
             "type": "line",
             "character": "Centurion",
-            "text": "(motions in the darkness for a guard to bring Barabbas out) Release Barabbas!"
+            "text": "(motions in the darkness for a guard to bring Barabbas out) Release Barabbas!",
+            "audioFile": "audio/passion/0102_centurion.mp3"
           },
           {
             "type": "direction",
@@ -1088,7 +1245,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Centurion",
-            "text": "(pulling on Jesus' shackles) Move!"
+            "text": "(pulling on Jesus' shackles) Move!",
+            "audioFile": "audio/passion/0103_centurion.mp3"
           },
           {
             "type": "direction",
@@ -1101,12 +1259,14 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Roman Guards",
-            "text": "Hail King of the Jews! (repeated)"
+            "text": "Hail King of the Jews! (repeated)",
+            "audioFile": "audio/passion/0104_roman_guards.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(to the centurion) Bring Him to me."
+            "text": "(to the centurion) Bring Him to me.",
+            "audioFile": "audio/passion/0105_pilate.mp3"
           },
           {
             "type": "direction",
@@ -1115,42 +1275,50 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(to the crowd) Behold the Man!"
+            "text": "(to the crowd) Behold the Man!",
+            "audioFile": "audio/passion/0106_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Crowd",
-            "text": "Crucify Him!"
+            "text": "Crucify Him!",
+            "audioFile": "audio/passion/0107_crowd.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "I have found no guilt in Him!\" (to Jesus) Do you not understand that I have the authority and the power to release You...or crucify You?"
+            "text": "I have found no guilt in Him!\" (to Jesus) Do you not understand that I have the authority and the power to release You...or crucify You?",
+            "audioFile": "audio/passion/0108_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "You have no authority over Me unless it has been given to You from My Father in Heaven."
+            "text": "You have no authority over Me unless it has been given to You from My Father in Heaven.",
+            "audioFile": "audio/passion/0109_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(to the crowd) Behold your King!"
+            "text": "(to the crowd) Behold your King!",
+            "audioFile": "audio/passion/0110_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Caiaphas",
-            "text": "(shaking his fist in the air) Away with Him...We have no King but Caesar!"
+            "text": "(shaking his fist in the air) Away with Him...We have no King but Caesar!",
+            "audioFile": "audio/passion/0111_caiaphas.mp3"
           },
           {
             "type": "line",
             "character": "Pilate",
-            "text": "(To the crowd) Crucify Him yourselves!\" (to the centurion) \"See to their wishes."
+            "text": "(To the crowd) Crucify Him yourselves!\" (to the centurion) \"See to their wishes.",
+            "audioFile": "audio/passion/0112_pilate.mp3"
           },
           {
             "type": "line",
             "character": "Centurion",
-            "text": "(Seizing hold of Jesus, speaks to the other guards) Bring His cross, so He may carry it.\""
+            "text": "(Seizing hold of Jesus, speaks to the other guards) Bring His cross, so He may carry it.\"",
+            "audioFile": "audio/passion/0113_centurion.mp3"
           },
           {
             "type": "direction",
@@ -1159,12 +1327,14 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Centurion",
-            "text": "(to Jesus) Pick up your cross...You King of the Jews"
+            "text": "(to Jesus) Pick up your cross...You King of the Jews",
+            "audioFile": "audio/passion/0114_centurion.mp3"
           },
           {
             "type": "line",
             "character": "Narrator",
-            "text": "With the crowd at the point of losing control, the last thing Pilate could afford was a mob riot. The tension in Jerusalem between the Jewish people and Rome was already at a breaking point. (pause) Beaten nearly to the point of death, with strips of flesh now exposed and hanging from his back, Jesus' agony was far from over. He was now forced to pick up this massive wooden instrument of death up to a hill overlooking Jerusalem called Golgotha, the place of the skull."
+            "text": "With the crowd at the point of losing control, the last thing Pilate could afford was a mob riot. The tension in Jerusalem between the Jewish people and Rome was already at a breaking point. (pause) Beaten nearly to the point of death, with strips of flesh now exposed and hanging from his back, Jesus' agony was far from over. He was now forced to pick up this massive wooden instrument of death up to a hill overlooking Jerusalem called Golgotha, the place of the skull.",
+            "audioFile": "audio/passion/0115_narrator.mp3"
           },
           {
             "type": "direction",
@@ -1173,7 +1343,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Roman Guard",
-            "text": "Stay back...Keep back...Move along."
+            "text": "Stay back...Keep back...Move along.",
+            "audioFile": "audio/passion/0116_roman_guard.mp3"
           }
         ]
       },
@@ -1195,7 +1366,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Mary",
-            "text": "(attempting to reach Jesus, the other women and John pull her back) My Jesus, my child!"
+            "text": "(attempting to reach Jesus, the other women and John pull her back) My Jesus, my child!",
+            "audioFile": "audio/passion/0117_mary.mp3"
           },
           {
             "type": "direction",
@@ -1204,12 +1376,14 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Centurion",
-            "text": "(pushes Jesus all the way to the ground with his foot) Enough of this, You don't act like a mighty king to me. (to a guard) Bring me someone who can carry His cross!"
+            "text": "(pushes Jesus all the way to the ground with his foot) Enough of this, You don't act like a mighty king to me. (to a guard) Bring me someone who can carry His cross!",
+            "audioFile": "audio/passion/0118_centurion.mp3"
           },
           {
             "type": "line",
             "character": "Roman Guard",
-            "text": "(Pointing to Simon in the back of the crowd, and pushing the crowd away) You there, come here! Pick up His cross and carry it or you'll find yourself hanging beside him."
+            "text": "(Pointing to Simon in the back of the crowd, and pushing the crowd away) You there, come here! Pick up His cross and carry it or you'll find yourself hanging beside him.",
+            "audioFile": "audio/passion/0119_roman_guard.mp3"
           },
           {
             "type": "direction",
@@ -1260,7 +1434,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Roman Guards",
-            "text": "(just to the side of the cross, circled up examining the purple cloth that was on Jesus in scene 4) This is a fine piece of Linen; let's not split it up between us, but let's cast lots for it...the winner takes it all."
+            "text": "(just to the side of the cross, circled up examining the purple cloth that was on Jesus in scene 4) This is a fine piece of Linen; let's not split it up between us, but let's cast lots for it...the winner takes it all.",
+            "audioFile": "audio/passion/0120_roman_guards.mp3"
           },
           {
             "type": "direction",
@@ -1269,47 +1444,56 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Caiaphas and Crowd",
-            "text": "(shouting at Jesus, throwing their arms at Him in disgust) You were going to destroy the temple in 3 days and rebuild it...then save yourself. If you are the Son of God, come down off the cross and save yourself. He saved others but He can't save Himself...doesn't look much like a king to me. If He is the Son of God, come down off that cross then we'll know you're the Son of God."
+            "text": "(shouting at Jesus, throwing their arms at Him in disgust) You were going to destroy the temple in 3 days and rebuild it...then save yourself. If you are the Son of God, come down off the cross and save yourself. He saved others but He can't save Himself...doesn't look much like a king to me. If He is the Son of God, come down off that cross then we'll know you're the Son of God.",
+            "audioFile": "audio/passion/0121_caiaphas_and_crowd.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "(looking down at His mom and John) Woman, here is your son and here is your mother."
+            "text": "(looking down at His mom and John) Woman, here is your son and here is your mother.",
+            "audioFile": "audio/passion/0122_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "(head lifted) Father forgive them, for they know not what they do."
+            "text": "(head lifted) Father forgive them, for they know not what they do.",
+            "audioFile": "audio/passion/0123_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Thief #2",
-            "text": "(shouting sarcastically) Are you not the Christ? Save yourself and us!"
+            "text": "(shouting sarcastically) Are you not the Christ? Save yourself and us!",
+            "audioFile": "audio/passion/0124_thief_2.mp3"
           },
           {
             "type": "line",
             "character": "Thief #1",
-            "text": "(Responding to Thief # 2) Do you not even fear God? We are suffering justly, for we are receiving what we deserve for our deeds; this man has done nothing wrong. (to Jesus) Jesus, remember me when You come into Your Kingdom!"
+            "text": "(Responding to Thief # 2) Do you not even fear God? We are suffering justly, for we are receiving what we deserve for our deeds; this man has done nothing wrong. (to Jesus) Jesus, remember me when You come into Your Kingdom!",
+            "audioFile": "audio/passion/0125_thief_1.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "(to Thief # 1) Truly I say to you, today you shall be with Me in Paradise! (pauses, looks up) My God, My God, why have you forsaken me?"
+            "text": "(to Thief # 1) Truly I say to you, today you shall be with Me in Paradise! (pauses, looks up) My God, My God, why have you forsaken me?",
+            "audioFile": "audio/passion/0126_jesus.mp3"
           },
           {
             "type": "line",
             "character": "Someone in the Crowd",
-            "text": "He is calling for Elijah!"
+            "text": "He is calling for Elijah!",
+            "audioFile": "audio/passion/0127_someone_in_the_crowd.mp3"
           },
           {
             "type": "line",
             "character": "Someone else in the Crowd",
-            "text": "(sarcastically) Let's see if Elijah comes and pulls Him off that cross!"
+            "text": "(sarcastically) Let's see if Elijah comes and pulls Him off that cross!",
+            "audioFile": "audio/passion/0128_someone_else_in_the_crowd.mp3"
           },
           {
             "type": "line",
             "character": "Jesus",
-            "text": "(exhausted, looking up): Father, into your hands I commit My Spirit."
+            "text": "(exhausted, looking up): Father, into your hands I commit My Spirit.",
+            "audioFile": "audio/passion/0129_jesus.mp3"
           },
           {
             "type": "direction",
@@ -1318,7 +1502,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Centurion",
-            "text": "(Now humbled by what he has witnessed, takes off his helmet) Truly this was the Son of God!"
+            "text": "(Now humbled by what he has witnessed, takes off his helmet) Truly this was the Son of God!",
+            "audioFile": "audio/passion/0130_centurion.mp3"
           },
           {
             "type": "direction",
@@ -1335,7 +1520,8 @@ window.SCRIPTS = {
           {
             "type": "line",
             "character": "Narrator",
-            "text": "I want you to stop and consider all you've seen tonight. Jesus showed us how to serve by bending down and washing his disciples' feet. He showed the power of prayer in connecting his will to the Father in the garden. He"
+            "text": "I want you to stop and consider all you've seen tonight. Jesus showed us how to serve by bending down and washing his disciples' feet. He showed the power of prayer in connecting his will to the Father in the garden. He",
+            "audioFile": "audio/passion/0131_narrator.mp3"
           },
           {
             "type": "direction",

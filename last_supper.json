@@ -1,0 +1,405 @@
+{
+  "title": "The Last Supper",
+  "scenes": [
+    {
+      "name": "Scene 1 \u2014 Before the Meal",
+      "items": [
+        {
+          "type": "direction",
+          "text": "The guests are gathered in front of the dining hall on the concrete patio prior to going inside for the Last Supper, and the retreat directors are giving their introductions. While they have the guests' attention, Jesus, John, and Peter will walk out of the dining hall and down the steps into the crowd and initiate the scene."
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "Go and prepare the Passover meal for us, so we can eat it."
+        },
+        {
+          "type": "line",
+          "character": "John",
+          "text": "Where do you want us to prepare it?"
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "Listen, when you've entered the city, a man carrying a water jug will meet you. Follow him into the house he enters. Tell the owner of the house, The Teacher asks You, where is the guest room where I can eat the Passover with my disciples? Then he will show you a large furnished room. Make the preparations there."
+        },
+        {
+          "type": "direction",
+          "text": "John and Peter will go on ahead of Jesus into the conference room. Jesus will walk towards the carpenter shop."
+        },
+        {
+          "type": "line",
+          "character": "Carpenter apprentice",
+          "text": "Is that him? Is that the one they call Jesus?"
+        },
+        {
+          "type": "line",
+          "character": "Carpenter",
+          "text": "Who- him? Are you Jesus? Are you the one that everyone is talking about?"
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "I am. You know I was a carpenter. What are you building?"
+        },
+        {
+          "type": "line",
+          "character": "Carpenter",
+          "text": "A cross."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus walks on into the conference room."
+        },
+        {
+          "type": "direction",
+          "text": "The guests will walk past the carpenter's shop and enter the conference room. The man with the water jug will meet them at the entrance with a water jug to wash their hands as they enter."
+        }
+      ]
+    },
+    {
+      "name": "Scene 2 \u2014 The Last Supper",
+      "items": [
+        {
+          "type": "direction",
+          "text": "Setting: The room is dark, with a small light to light the Narrator. A \"U\" shaped table is set up on the stage with tablecloth, burlap, or other such period decorations. Places will be set for 13 people. Candles, led lights, or white Christmas lights help light the tables. Wooden or earthen cups and a plate with loaf bread should be at the spot where Jesus will sit. He will use these when it comes time to do communion."
+        },
+        {
+          "type": "direction",
+          "text": "The disciples will enter in groups from various locations of the building working their way through the tables. They will greet each other (welcome each other- hug and embrace) and the guests as well and make their way towards the stage."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus will walk to the front of the room, kneel in front of a bowl and pitcher of water. He will have towel available. Jesus will pour water into a wash basin and begin washing the Disciples feet. The disciples will come forward and have their feet washed greeting Him as - \"Lord and God\", \"Messiah\", \"Rabbi\", \"Teacher\". Peter's feet will be the last one washed."
+        },
+        {
+          "type": "line",
+          "character": "Peter",
+          "text": "Lord, are you going to wash my feet?"
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "What I'm doing you don't understand now, but later you will know."
+        },
+        {
+          "type": "line",
+          "character": "Peter",
+          "text": "No! You will never wash my feet."
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "Unless I wash your feet, you have no part with me."
+        },
+        {
+          "type": "line",
+          "character": "Peter",
+          "text": "Lord, not only my feet, but my hands and head as well!"
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "A person who has bathed all over does not need to wash, except for the feet, to be entirely clean and You disciples are clean, but not all of you."
+        },
+        {
+          "type": "direction",
+          "text": "Disciples look at each other confused and mumble to each other. Jesus stands."
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "Do you understand what I was doing? You call me 'Teacher' and 'Lord' and you are right because that's what I am. And since I have washed your feet, you ought to wash each other's feet. I have given you an example to follow. Do as I have done to you."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus and Peter will make their way back to their spots at the table. Jesus will be in the center. Judas and John will sit on either side of Jesus. Peter will be seated at the far end of the table away from Jesus. All others may sit where they wish."
+        },
+        {
+          "type": "direction",
+          "text": "At this point, the disciples casually begin to eat the food set on the table and make period accurate small talk, keeping in character and using only their characters names. The meal will now be served to all the guests and to Jesus and the disciples at the same time. Everyone will eat the Passover Meal together. Once the servers have ensured the guests have all the food they need and they are ready to stop serving, one designated server will cue Andrew to begin the scene."
+        },
+        {
+          "type": "line",
+          "character": "Andrew",
+          "text": "Thank you Jesus for inviting us to join you at this table tonight."
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "I have been very eager to eat this Passover meal with all of you."
+        },
+        {
+          "type": "line",
+          "character": "Andrew",
+          "text": "I remember the first time I saw you. I was standing next to John the Baptist and overheard him say \"Look the Lamb of God!\" I began following you and couldn't wait to tell my brother Peter."
+        },
+        {
+          "type": "line",
+          "character": "Peter",
+          "text": "I remember that day like it was yesterday you came running up to me with excitement claiming that you had found the Messiah. Later Andrew and I were washing our nets when Jesus, \"The Messiah\", showed up and got in my boat. He had a large crowd following him and asked me to put him out a little from the shore. Then he sat down and began teaching from my boat. When he finished speaking, he told me to put out into deep water and let down my nets for the catch. We had been fishing all night long and caught nothing."
+        },
+        {
+          "type": "line",
+          "character": "Andrew",
+          "text": "Yeah, I thought Jesus was crazy. You could tell by looking at him that he never fished a day in his life."
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "Well you are better fishers of men then you were of fish."
+        },
+        {
+          "type": "line",
+          "character": "Peter",
+          "text": "Yes Master thanks to you. We listened to You, and we caught so many fish that I had to signal to James and John to help lift our nets."
+        },
+        {
+          "type": "line",
+          "character": "Thaddeus",
+          "text": "oh yes- the sons of Zebedee. The sons of Thunder"
+        },
+        {
+          "type": "line",
+          "character": "Peter",
+          "text": "They came to help, and both our boats began to sink due to the weight of all the fish we caught. I caught more fish that day than I have caught in a year. Speaking of fish, Philip tell about the time our Master fed the 5,000?"
+        },
+        {
+          "type": "line",
+          "character": "James",
+          "text": "You mean 5,000 men. That is not counting women and children."
+        },
+        {
+          "type": "line",
+          "character": "Philip",
+          "text": "You are right James there was a lot more than 5000 people there that day. Jesus had just crossed the sea of Galilee and a huge crowd was following him. They were so hungry for the words Jesus was speaking. Jesus came and sat with us on the mountain and the huge crowd continued toward him. I asked, \"where will we buy bread so these people can eat?\" Almost like an answer to a pray- Andrew, the Bringer, found a boy with 5 loaves of bread and 2 fish."
+        },
+        {
+          "type": "line",
+          "character": "Andrew",
+          "text": "Oh yes, I remember that boy. He was so willing to serve. I knew this wasn't enough to feed all the people. But Jesus took the 5 loaves and fish blessed it and began passing it to the crowd. When they were full, Jesus told us to collect the leftovers so that nothing was wasted."
+        },
+        {
+          "type": "line",
+          "character": "John",
+          "text": "I still can't believe we collected 12 baskets of leftovers. Jesus taught us that day to put our lives in his hands so he could do things with it that no one could ever imagine. After Jesus called Peter and Andrew to follow Him, He came to me and my brother James. We were in the boat nearby with our father Zebedee, mending our nets. When He called us, and we immediately left the boat and our father, and followed Him."
+        },
+        {
+          "type": "direction",
+          "text": "Do you remember when the Master said, \"For God so loved the world that He gave His only begotten Son, that whosoever believes in Him should not perish, but have everlasting life.\" How could we forget that. Matthew, tell us how you meet Jesus. I love this story."
+        },
+        {
+          "type": "line",
+          "character": "Matthew",
+          "text": "The first time I met Jesus, I was sitting in my tax collector booth and Jesus said to me \"follow me and be my disciple\". I knew something was different about him. I got up leaving everything behind to follow him. Before I knew Jesus my money and my job was my god; they were the only thing I worshiped. Jesus knew the man I was. I was hated by everyone, and I really don't blame them. Jesus, you loved me even in my sin and shame. I thought I was unlovable."
+        },
+        {
+          "type": "direction",
+          "text": "Later, I invited Jesus to my home to sit at my table with other tax collectors and friends. The religious leaders were so angry with Jesus and questioned why he would eat with sinners. There is a world of people out there that think they are unlovable due to their situations and life of sin that they are in but with the help of Jesus I'm going to love them as he loved me."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus has taught me many things over the past few years and one of the things that really sticks out to me is to continue sharing the good news that Jesus loves everyone no matter what they are going through. Jesus thank you for rescuing me and saving a place for me at your table tonight. What about you Little James?"
+        },
+        {
+          "type": "line",
+          "character": "James the Lesser",
+          "text": "(shaking his head) Just because I am smaller than most men- I am Little James. I will tell you it was an unforgettable day. I was walking, I saw a crowd and could sense the excitement. John the Baptist was baptizing. This is the day John baptized Jesus. John at first refused to baptize Him, but Jesus insisted. After John baptized Him, the heavens opened, and the Holy Spirit descended on Him in the form of a dove and I heard a voice from heaven saying \"This is My beloved son, in whom I am well pleased. I will never forget it- it was incredible!"
+        },
+        {
+          "type": "direction",
+          "text": "Since then, I have walked with Him and talked with Him, stayed with Him and prayed with Him, trying to learn as much about Him as I could. Simon has a great story, tell us."
+        },
+        {
+          "type": "line",
+          "character": "Simon",
+          "text": "You all know I was a Zealot. That I wanted to overthrow the Romans by force- to restore the glory of Israel. But Jesus, He told me about another kind of kingdom, one that isn't on earth, but it is spiritual and eternal. It's a future kingdom, but it also exists now in our hearts. I changed because of Jesus. He showed me to stop fighting against countries and rulers and start fighting for people's souls, to bring them back to the heart of God. I have surrendered myself to Him. This surrendered didn't imprison me, it set me free for the first time in my life."
+        },
+        {
+          "type": "line",
+          "character": "James",
+          "text": "I will tell out something that wasn't free. When Mary washed Jesus' feet with that expensive ointment and perfume. It wasn't free, but the room sure smelled good."
+        },
+        {
+          "type": "line",
+          "character": "Judas",
+          "text": "That was such a waste of money. We could have sold that perfume and given it to the poor. As the treasurer I can assure you we I could have found a better way to spend that money then to pour it out."
+        },
+        {
+          "type": "line",
+          "character": "Nathaniel",
+          "text": "Phillip, do you remember the day you told me, you had found the One about whom Moses wrote in the law, and also the prophets."
+        },
+        {
+          "type": "line",
+          "character": "Philip",
+          "text": "I sure do, Nathaniel. It was Jesus, the son of Joseph, a carpenter from Nazareth."
+        },
+        {
+          "type": "line",
+          "character": "Nathaniel",
+          "text": "I said, \"Nazareth! Can anything good come from Nazareth?\" You said, \"Come and see.\" Jesus, you saw me coming and motioned to me and said"
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "\"Here is a true Israelite, in whom there is no guilt.\""
+        },
+        {
+          "type": "line",
+          "character": "Nathaniel",
+          "text": "I replied, \"How do you know me?\" and you told me \"Before Phillip called you, I saw you underneath the fig tree.\""
+        },
+        {
+          "type": "direction",
+          "text": "I couldn't believe it. You see, the Master was actually telling me that he had known me since the day I was born. I responded, \"Rabbi, truly you are the son of God, the King of Israel!\" You again responded, \"Do you believe it because I told you I saw you underneath the fig tree? You will see greater things than this.\""
+        },
+        {
+          "type": "direction",
+          "text": "And we did. Soon after this, we were all invited to a wedding feast at Cana. The wedding party ran out of wine. All they had were six stone jars containing water that had been set apart for purification. And we watched Jesus turn that water into wine. Water into wine! Do you remember? That was definitely a good night for the chief servant and the wedding party as well."
+        },
+        {
+          "type": "line",
+          "character": "Thomas",
+          "text": "That was an amazing night. Jesus was right about seeing great things. I cannot help but think about Lazarus, what a miracle. We saw something that I thought was truly impossible. Jesus spoke and Lazarus walked out the grave. We have all seen Jesus heal the sick, cure disease, open the eyes of the blind, unstop the ears of the dead, cleanse lepers. I cannot doubt that Jesus is the Son of God with all that I have seen."
+        },
+        {
+          "type": "line",
+          "character": "Thaddeus",
+          "text": "What about the time they lowered that man into the room through the roof? Those were true believers and friends. Or when He calmed the seas. I thought we were all going to die that night. Or when he cast out demons- do you remember those pigs?"
+        },
+        {
+          "type": "line",
+          "character": "James",
+          "text": "Peter what about the time you walked on water."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus stands."
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "I have been eager to eat this Passover meal with all of you before my sufferings begin. For I tell you now that I won't eat this meal again until its meaning is fulfilled in the Kingdom of God."
+        },
+        {
+          "type": "direction",
+          "text": "Disciples will partake in communion, each serving the other with bread and juice. (3-5 minutes) Elements at table-need two cups and loaf of bread."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus takes the cup, raises it to heaven, prays in silence and then, and lowers his arms."
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "Take this and share it among yourselves. For I will not drink of the fruit of the vine until the Kingdom of God has come."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus passes the cups around the table, one in each direction. The disciples take a drink, or pretend to, from the cup and pass to the next. Jesus waits until the cup has been passed to all the disciples."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus takes the bread, raises it to heaven, prays in silence, and lowers his arms."
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "This is my body, which is given for you. Do this in remembrance of me."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus breaks the bread and passes the pieces around the table, one in each direction. The disciples take a piece, eat it, and pass to the next. Jesus waits until the bread has been passed to all the disciples."
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "But look, the hand of the one who is to betray me is with me at this table; for the Son of Man indeed goes as it has been determined; but woe to that man by whom he is betrayed."
+        },
+        {
+          "type": "direction",
+          "text": "The disciples start to argue among themselves and look around the table. Peter will motion to John to find out who Jesus is talking about."
+        },
+        {
+          "type": "line",
+          "character": "John",
+          "text": "Lord, who is it?"
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "He is the one I give the piece of bread to after I have dipped it."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus will dip the bread in the cup and give it to Judas. The other disciples look confused and talk amongst themselves briefly. Their conversations are short. They do not understand what is going on. Scripture teaches us they did not understand what was happening in this moment despite what Jesus had been teaching them."
+        },
+        {
+          "type": "line",
+          "character": "Judas",
+          "text": "Surely you don't mean me, Rabbi?"
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "(speaking to Judas) What you're doing, do quickly."
+        },
+        {
+          "type": "direction",
+          "text": "Judas will be carrying the money bag (visibly) and he will hug Jesus as he exits the table. Judas will walk by the guests as he leaves the room. The disciples start talking amongst themselves and questioning where Judas is going. Jesus remains standing and watches Judas leave."
+        },
+        {
+          "type": "line",
+          "character": "Thomas",
+          "text": "He is probably buying things for the festival\u2026"
+        },
+        {
+          "type": "line",
+          "character": "James",
+          "text": "Or giving something to the poor\u2026"
+        },
+        {
+          "type": "line",
+          "character": "Jesus",
+          "text": "I give you a new command: Love one another. Just as I have loved you, you must also love one another. By this all people will know that you are my disciples if you have love for one another. Behold, the hour has come when you will be scattered, each to his own home, and will leave me alone. Yet I am not alone, for the Father is with me. I have said these things to you, that in me you may have peace. In the world you will have trouble, but take heart, I have overcome the world. Come, it is time to go."
+        },
+        {
+          "type": "direction",
+          "text": "Jesus leaves the table and exits through the guest. After Jesus exits the room, the disciples will rise from the table and leave the room. The narrator will wait for them to exit before he will speak to the guest."
+        }
+      ]
+    },
+    {
+      "name": "After the Meal \u2014 Narrator",
+      "items": [
+        {
+          "type": "line",
+          "character": "Narrator",
+          "text": "You are all Jesus' faithful disciples as are these men that you have seen tonight. You have been commissioned and sent forth to do the work of the Father through your Salvation, becoming part of the true Body of Christ in your homes, in your churches, and in the community. Through the study of God's word, learning and reinforcing your faith and your relationship with Him."
+        },
+        {
+          "type": "direction",
+          "text": "Narrator will direct guests to take (5-10 minute) bathroom breaks and reconvene. Guests should gather at a place outside prior to going to the first station of the passion. This break will be the transition between the Last Supper and the Passion."
+        },
+        {
+          "type": "direction",
+          "text": "Once guests are reassembled and quieted, each guest will be given a name tag, and asked to write their name legibly on the name tag. Guests should be told to keep the name tag with them, and make sure not to lose it."
+        },
+        {
+          "type": "direction",
+          "text": "Narrator continues:"
+        },
+        {
+          "type": "line",
+          "character": "Narrator",
+          "text": "After Jesus shared the Passover meal with his disciples that you have just witnessed, he did what he so often did, he retreated to a quiet place to pray to his Father. Jesus went out to the Mount of Olives and his disciples followed him there. Come, let us join them there now."
+        },
+        {
+          "type": "direction",
+          "text": "Passion begins as guests are directed to the first scene at the Garden of Gethsemane."
+        }
+      ]
+    }
+  ]
+}
