@@ -25,13 +25,13 @@
   html, body { margin:0; padding:0; background: var(--bg); color: var(--ink);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     min-height: 100vh; min-height: 100dvh; }
-  body { padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom); }
+  body { padding: env(safe-area-inset-top) 0 0; }
   header { padding: 14px 16px 8px; display:flex; align-items:center; justify-content: space-between;
     border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--bg); z-index: 10; }
   header h1 { font-size: 17px; margin:0; font-weight: 600; letter-spacing: .2px; }
   header .sub { color: var(--muted); font-size: 12px; margin-top: 2px; }
   header .back { background: none; border: none; color: var(--accent); font-size: 16px; padding: 6px 8px; cursor: pointer; }
-  main { padding: 16px; max-width: 700px; margin: 0 auto; }
+  main { padding: 16px 16px 100px; max-width: 700px; margin: 0 auto; }
 
   .card { background: var(--card); border-radius: 14px; padding: 16px; margin-bottom: 14px; border: 1px solid var(--border); }
   .card h2 { margin: 0 0 8px; font-size: 16px; font-weight: 600; }
@@ -84,9 +84,16 @@
   @keyframes pulse { 0%,100%{ box-shadow:0 0 0 0 rgba(212,175,55,.45);} 50%{ box-shadow:0 0 0 14px rgba(212,175,55,0);} }
 
   .small { font-size: 13px; color: var(--muted); }
-  .tip { background: rgba(212,175,55,.08); border-left: 3px solid var(--accent); padding: 10px 12px; border-radius: 8px;
-         color: var(--accent-soft); font-size: 13px; margin: 8px 0 4px; }
-  footer { color: var(--muted); font-size: 12px; text-align: center; padding: 12px 16px 24px; }
+
+  /* Persistent bottom Home bar (visible on every view) */
+  .bottom-bar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+    padding: 10px 16px calc(env(safe-area-inset-bottom) + 10px);
+  }
+  .bottom-bar .inner { max-width: 700px; margin: 0 auto; }
+  .bottom-bar .btn { margin-top: 0; padding: 12px 16px; font-size: 15px; }
 </style>
 </head>
 <body>
@@ -101,7 +108,11 @@
 
 <main id="root"></main>
 
-<footer>Built for the Last Supper &amp; Passion drama productions.</footer>
+<div class="bottom-bar">
+  <div class="inner">
+    <button class="btn ghost" id="homeBtn">⌂ Home</button>
+  </div>
+</div>
 
 <script src="scripts.js"></script>
 <script>
@@ -110,28 +121,32 @@
    - Pick production -> pick character -> pick difficulty
    - Rehearse lines: app reads other characters in unique voices;
      listens when it's your turn; shows word-by-word diff.
+   - Header Back: during rehearsal, goes to the PREVIOUS LINE.
+                  During setup screens, goes to the previous step.
+   - Bottom Home button: returns to the start, on every screen.
    ============================================================ */
 
 const STATE = {
-  productionKey: null,    // 'last_supper' | 'passion'
+  productionKey: null,
   production: null,
   character: null,
-  difficulty: 'easy',     // 'easy' | 'medium' | 'hard'
-  view: 'home',           // 'home' | 'pickChar' | 'pickDiff' | 'rehearse'
-  flat: [],               // flat list of items across scenes
+  difficulty: 'easy',
+  view: 'home',
+  flat: [],
   idx: 0,
   voices: [],
-  charVoices: {},         // character -> SpeechSynthesisVoice
+  charVoices: {},
   listening: false,
   recognition: null,
   lastHeard: '',
-  diff: null,             // last comparison result
+  diff: null,
   autoAdvance: true,
   ttsRate: 1.0,
-  currentAudio: null,     // active HTMLAudioElement (so we can stop it)
+  currentAudio: null,
+  suppressAutoPlay: false,  // set when navigating backward
 };
 
-// ---------- Voices ----------
+// ---------- Voices (system fallback only) ----------
 function loadVoices() {
   return new Promise(resolve => {
     let v = speechSynthesis.getVoices();
@@ -141,33 +156,23 @@ function loadVoices() {
       STATE.voices = v;
       resolve(v);
     };
-    // Trigger load
     setTimeout(()=>{ const x = speechSynthesis.getVoices(); if (x.length){ STATE.voices = x; resolve(x); } }, 250);
   });
 }
 
-function hashStr(s) { let h = 0; for (let i=0;i<s.length;i++){ h = ((h<<5)-h + s.charCodeAt(i))|0; } return Math.abs(h); }
-
 function pickVoicesForCharacters(characters) {
-  // Pick English voices, prefer "premium / enhanced" ones if present
   const allEn = STATE.voices.filter(v => /^en[-_]/i.test(v.lang));
   if (!allEn.length) return {};
-  // Sort: enhanced/premium first, then by name
   const sorted = allEn.slice().sort((a,b)=>{
     const score = v => (/(enhanced|premium|siri|natural)/i.test(v.name) ? 0 : 1);
     return score(a)-score(b) || a.name.localeCompare(b.name);
   });
-  // Heuristic categorization by name (best-effort; varies by device)
   const looksMale = v => /(male|alex|aaron|daniel|fred|tom|reed|albert|arthur|gordon|oliver|rishi|mike|nicky|jasper|stephen|ralph|junior)/i.test(v.name);
-  const looksFemale = v => /(female|samantha|karen|moira|fiona|tessa|victoria|allison|ava|susan|kate|sandy|nora|amelie|veena|martha|isha|princess|kathy|catherine|flo|grandma|grandpa is not|good news|whisper)/i.test(v.name);
-
+  const looksFemale = v => /(female|samantha|karen|moira|fiona|tessa|victoria|allison|ava|susan|kate|sandy|nora|amelie|veena|martha|isha)/i.test(v.name);
   const males = sorted.filter(looksMale);
   const females = sorted.filter(looksFemale);
   const others = sorted.filter(v => !looksMale(v) && !looksFemale(v));
-
-  // Lines like "Mary", "Claudia", "Woman at the fire" → female; others assumed male unless name suggests female
   const femaleish = ['Mary','Claudia','Woman at the fire','Salome'];
-
   const assigned = {};
   let mi = 0, fi = 0, oi = 0;
   characters.forEach(c => {
@@ -177,8 +182,7 @@ function pickVoicesForCharacters(characters) {
     else if (males.length)            { pool = males;   idx = mi++ % males.length; }
     else if (females.length)          { pool = females; idx = fi++ % females.length; }
     else                              { pool = others;  idx = oi++ % others.length; }
-    // Special: try to give Jesus the deepest/first available voice
-    if (c === 'Jesus' && males.length) pool = males, idx = 0;
+    if (c === 'Jesus' && males.length) { pool = males; idx = 0; }
     assigned[c] = pool[idx] || sorted[0];
   });
   return assigned;
@@ -209,7 +213,6 @@ function playAudioFile(src) {
     const finish = (ok) => { if (done) return; done = true; STATE.currentAudio = null; resolve(ok); };
     a.onended = () => finish(true);
     a.onerror = () => finish(false);
-    a.onstalled = () => { /* leave it; user can hit play again */ };
     const p = a.play();
     if (p && typeof p.then === 'function') {
       p.catch(() => finish(false));
@@ -226,8 +229,6 @@ function stopAudio() {
 
 // ---------- Text helpers ----------
 function stripParentheticals(s) { return s.replace(/\([^)]*\)/g, ' ').replace(/\s+/g, ' ').trim(); }
-
-// Split a line into segments to render with cues in italic
 function segmentLine(s) {
   const out = [];
   const re = /\(([^)]*)\)/g;
@@ -240,15 +241,11 @@ function segmentLine(s) {
   if (last < s.length) out.push({ type:'speech', text: s.slice(last) });
   return out;
 }
-
 function tokenize(s) {
-  // Lowercase, strip parentheticals, remove punctuation, split on whitespace
   return stripParentheticals(s).toLowerCase()
     .replace(/[^a-z0-9' ]+/g, ' ')
     .replace(/\s+/g,' ').trim().split(' ').filter(Boolean);
 }
-
-// Word-level diff (LCS-based)
 function diffWords(expected, spoken) {
   const a = expected.slice(), b = spoken.slice();
   const m=a.length, n=b.length;
@@ -265,7 +262,6 @@ function diffWords(expected, spoken) {
   }
   while (i<m) { out.push({type:'missing', word:a[i++]}); }
   while (j<n) { out.push({type:'extra', word:b[j++]}); }
-  // Score
   const total = a.length || 1;
   const correct = out.filter(x=>x.type==='correct').length;
   return { tokens: out, pct: Math.round(100*correct/total), expectedCount: a.length, correctCount: correct };
@@ -282,7 +278,6 @@ function newRecognizer() {
   r.maxAlternatives = 1;
   return r;
 }
-
 function listenOnce() {
   return new Promise((resolve, reject) => {
     const r = newRecognizer();
@@ -299,18 +294,17 @@ function listenOnce() {
       }
       updateHeard(finalText || interim, !!finalText);
     };
-    r.onerror = (ev) => { STATE.listening = false; resolve(finalText.trim() || ''); };
+    r.onerror = () => { STATE.listening = false; resolve(finalText.trim() || ''); };
     r.onend = () => { STATE.listening = false; resolve(finalText.trim()); };
     try { r.start(); } catch (err) { STATE.listening = false; reject(err); }
   });
 }
-
 function stopListening() {
   try { STATE.recognition && STATE.recognition.stop(); } catch(e){}
   STATE.listening = false;
 }
 
-// ---------- Flatten production ----------
+// ---------- Production helpers ----------
 function buildFlatItems(production) {
   const flat = [];
   production.scenes.forEach(sc => {
@@ -319,7 +313,6 @@ function buildFlatItems(production) {
   });
   return flat;
 }
-
 function charactersIn(production) {
   const set = new Map();
   production.scenes.forEach(sc => sc.items.forEach(i => {
@@ -345,7 +338,6 @@ const h = (tag, attrs={}, ...children) => {
   });
   return el;
 };
-
 function setHeader(title, sub, showBack) {
   document.getElementById('hTitle').textContent = title;
   document.getElementById('hSub').textContent = sub || '';
@@ -360,7 +352,37 @@ function go(view) {
   else if (view === 'rehearse') renderRehearse();
 }
 
-// HOME
+// ---------- Navigation ----------
+function stopAllPlayback() {
+  stopListening();
+  stopAudio();
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+}
+
+// Go back ONE line in the rehearse view. Suppresses auto-play so we don't
+// immediately advance again.
+function rehearseBack() {
+  stopAllPlayback();
+  if (STATE.idx > 0) {
+    STATE.idx -= 1;
+    STATE.suppressAutoPlay = true;
+  }
+  renderRehearse();
+}
+
+// Reset everything and return to the home screen. Used by the bottom Home button.
+function goHome() {
+  stopAllPlayback();
+  STATE.idx = 0;
+  STATE.suppressAutoPlay = false;
+  STATE.diff = null;
+  STATE.lastHeard = '';
+  go('home');
+}
+
+document.getElementById('homeBtn').addEventListener('click', goHome);
+
+// ---------- HOME ----------
 function renderHome() {
   setHeader('Line Coach', 'Pick a production', false);
   const r = root(); r.innerHTML = '';
@@ -394,11 +416,11 @@ function renderHome() {
     h('p', {}, '1) Pick your production and character.'),
     h('p', {}, '2) Choose Easy / Medium / Hard.'),
     h('p', {}, '3) The app reads other characters’ lines aloud. When it’s your turn, tap the mic and speak your line. You’ll see a word-by-word check.'),
-    h('p', {class:'small'}, 'Tip: After it opens on your iPhone, tap the Share icon → “Add to Home Screen” for an app-like experience.')
+    h('p', {class:'small'}, 'During rehearsal, the back arrow steps back one line. The Home button at the bottom resets and returns here.')
   ));
 }
 
-// PICK CHARACTER
+// ---------- PICK CHARACTER ----------
 function renderPickCharacter() {
   setHeader(STATE.production.title, 'Pick your character', true);
   document.getElementById('hBack').onclick = () => go('home');
@@ -428,7 +450,7 @@ function renderPickCharacter() {
   r.appendChild(nextBtn);
 }
 
-// PICK DIFFICULTY
+// ---------- PICK DIFFICULTY ----------
 function renderPickDifficulty() {
   setHeader(STATE.production.title, 'Difficulty for ' + STATE.character, true);
   document.getElementById('hBack').onclick = () => go('pickChar');
@@ -469,28 +491,30 @@ function renderPickDifficulty() {
     h('p', {class:'small'}, 'How fast the app speaks other characters’ lines.')
   ));
 
-  r.appendChild(h('button', {class:'btn', onclick: async ()=> {
-      // Build flat items, assign voices, start
+  r.appendChild(h('button', {class:'btn', onclick: ()=> {
       STATE.flat = buildFlatItems(STATE.production);
       const chars = charactersIn(STATE.production).map(x=>x[0]);
       STATE.charVoices = pickVoicesForCharacters(chars);
       STATE.idx = 0;
+      STATE.suppressAutoPlay = false;
       go('rehearse');
   }}, 'Start rehearsal'));
 }
 
-// REHEARSE
+// ---------- REHEARSE ----------
 function renderRehearse() {
-  setHeader(STATE.production.title, STATE.character + ' · ' + STATE.difficulty.toUpperCase(), true);
-  document.getElementById('hBack').onclick = () => { stopListening(); stopAudio(); speechSynthesis.cancel(); go('pickDiff'); };
+  setHeader(STATE.production.title, STATE.character + ' · ' + STATE.difficulty.toUpperCase(), STATE.idx > 0);
+  // Header back now goes to the PREVIOUS LINE (only shown when there is one).
+  document.getElementById('hBack').onclick = rehearseBack;
+
   const r = root(); r.innerHTML = '';
 
   if (STATE.idx >= STATE.flat.length) {
     r.appendChild(h('div', {class:'card'},
       h('h2', {}, 'End of script — nice work!'),
       h('p', {}, 'You’ve walked through the whole production.'),
-      h('button', {class:'btn', onclick: ()=>{ STATE.idx = 0; renderRehearse(); }}, 'Start over'),
-      h('button', {class:'btn secondary', onclick: ()=> go('home')}, 'Pick a different production')
+      h('button', {class:'btn', onclick: ()=>{ STATE.idx = 0; STATE.suppressAutoPlay = false; renderRehearse(); }}, 'Start over'),
+      h('button', {class:'btn secondary', onclick: ()=>{ STATE.idx -= 1; STATE.suppressAutoPlay = true; renderRehearse(); }}, '‹ Back to last line')
     ));
     return;
   }
@@ -502,7 +526,6 @@ function renderRehearse() {
   );
   r.appendChild(sceneCard);
 
-  // Controls
   const isYou = (item.type === 'line' && item.character === STATE.character);
 
   if (item.type === 'scene') {
@@ -512,37 +535,35 @@ function renderRehearse() {
     r.appendChild(h('button', {class:'btn', onclick: advance}, 'Next ›'));
   }
   else if (item.type === 'line' && !isYou) {
-    // Other character — speak then advance
     const speakBtn = h('button', {class:'btn', onclick: ()=>playOther(item, speakBtn)}, '▶ Play line');
     const skipBtn  = h('button', {class:'btn secondary', onclick: advance}, 'Skip ›');
     r.appendChild(speakBtn);
     r.appendChild(skipBtn);
-    // Auto-play
-    setTimeout(()=> playOther(item, speakBtn), 200);
+    // Auto-play unless we just stepped backward
+    if (!STATE.suppressAutoPlay) {
+      setTimeout(()=> playOther(item, speakBtn), 200);
+    }
+    STATE.suppressAutoPlay = false;
   }
   else if (item.type === 'line' && isYou) {
     const heardEl = h('div', {class:'heard', id:'heard'}, h('div',{class:'label'},'You haven’t spoken yet'));
     r.appendChild(heardEl);
     const micBtn = h('button', {class:'mic', id:'mic', onclick: async ()=>{
       if (STATE.listening) { stopListening(); return; }
-      // Tap to start
       micBtn.classList.add('listening'); micBtn.textContent = 'Listening…';
       let heard = '';
       try { heard = await listenOnce(); } catch(e) {}
-      micBtn.classList.remove('listening'); micBtn.textContent = '🎤 Tap to speak';
+      micBtn.classList.remove('listening'); micBtn.textContent = '🎙️ Tap to speak';
       STATE.lastHeard = heard;
       const exp = tokenize(item.text);
       const got = tokenize(heard);
       STATE.diff = diffWords(exp, got);
       showHeard(item, STATE.diff);
-      // Show next button
       nextWrap.style.display = '';
-    }}, '🎤 Tap to speak');
+    }}, '🎙️ Tap to speak');
     r.appendChild(micBtn);
 
-    const showLineBtn = h('button', {class:'btn ghost', onclick: ()=>{
-      reveal(item);
-    }}, '👁 Show the line');
+    const showLineBtn = h('button', {class:'btn ghost', onclick: ()=>{ reveal(item); }}, '👁 Show the line');
     const nextWrap = h('div', {style:'display:none'},
       h('button', {class:'btn', onclick: advance}, 'Next ›')
     );
@@ -550,19 +571,18 @@ function renderRehearse() {
     r.appendChild(showLineBtn);
     r.appendChild(skipBtn);
     r.appendChild(nextWrap);
+    STATE.suppressAutoPlay = false;
   }
 
-  // Progress
   const total = STATE.flat.length;
   r.appendChild(h('p', {class:'small', style:'text-align:center;margin-top:14px'},
     `Step ${STATE.idx+1} of ${total}`));
 }
 
 function advance() {
-  stopListening();
-  stopAudio();
-  speechSynthesis.cancel();
+  stopAllPlayback();
   STATE.idx += 1;
+  STATE.suppressAutoPlay = false;
   renderRehearse();
 }
 
@@ -576,11 +596,9 @@ function renderItemBody(item) {
   if (item.type === 'direction') {
     return h('div', {class:'direction'}, item.text);
   }
-  // line
   const isYou = (item.character === STATE.character);
   const speakerEl = h('div', {class:'speaker' + (isYou ? ' yours' : '')},
     (isYou ? 'YOU — ' : '') + item.character);
-
   const lineEl = h('div', {class:'line-text', id:'lineText'});
   if (isYou) {
     renderLineForDifficulty(lineEl, item.text, STATE.difficulty);
@@ -602,7 +620,6 @@ function renderLineForDifficulty(target, text, difficulty) {
     });
     return;
   }
-  // For medium/hard, hide the speech text but always show parenthetical cues (they're stage instructions)
   segmentLine(text).forEach(seg => {
     if (seg.type === 'cue') {
       target.appendChild(h('span',{class:'cue'}, seg.text + ' '));
@@ -613,14 +630,12 @@ function renderLineForDifficulty(target, text, difficulty) {
         const wordOnly = w.replace(/[^A-Za-z0-9']/g,'');
         if (!wordOnly) { target.appendChild(document.createTextNode(w)); return; }
         if (difficulty === 'medium') {
-          // first letter shown, rest replaced with underscores of same length
           const first = wordOnly[0];
           const rest = '_'.repeat(Math.max(0, wordOnly.length - 1));
-          // Preserve any leading/trailing punctuation
           const lead = w.match(/^[^A-Za-z0-9']*/)[0];
           const tail = w.match(/[^A-Za-z0-9']*$/)[0];
           target.appendChild(document.createTextNode(lead + first + rest + tail + ' '));
-        } else { // hard
+        } else {
           const blank = h('span', {class:'blank', style:'width:'+(wordOnly.length*0.55)+'em'});
           target.appendChild(blank);
           target.appendChild(document.createTextNode(' '));
@@ -647,7 +662,6 @@ async function playOther(item, btn) {
     played = await playAudioFile(item.audioFile);
   }
   if (!played) {
-    // Fall back to iOS built-in voice (robotic but better than silence)
     const voice = STATE.charVoices[item.character];
     const toSpeak = stripParentheticals(item.text);
     await speak(toSpeak, voice);
@@ -681,11 +695,6 @@ function updateHeard(text, isFinal) {
 
 // ---------- Init ----------
 (async function init() {
-  // Check Speech Recognition availability
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!SR) {
-    console.warn('Speech recognition not available; mic features will be inactive but the rest works.');
-  }
   await loadVoices();
   go('home');
 })();
